@@ -9,6 +9,7 @@ build/
 .venv/
 venv/
 .env
+.ipynb_checkpoints/
 hdb test instructions/Data Engineering Technical Test 1.pdf
 
 # Personal Claude instructions
