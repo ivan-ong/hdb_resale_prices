@@ -18,7 +18,7 @@ pip install -e ".[dev]"
 
 ## Run
 
-Open and execute `notebook/hdb_etl_part1.ipynb` top to bottom. On a fresh clone
+Open and execute `notebook/hdb_etl.ipynb` top to bottom. On a fresh clone
 the raw CSVs are already present in `data/raw/`, so the pipeline runs without
 network access.
 
@@ -34,7 +34,7 @@ pytest
 .
 ├── pyproject.toml
 ├── README.md
-├── notebook/hdb_etl_part1.ipynb   # Deliverable; orchestrates + displays
+├── notebook/hdb_etl.ipynb   # Deliverable; orchestrates + displays
 ├── src/                            # Importable pipeline modules
 │   ├── config.py                   # Single source of truth for paths/scope
 │   ├── ingest.py                   # data.gov.sg streaming downloads
@@ -50,6 +50,40 @@ pytest
     ├── failed/                     # Rejected records
     └── reports/                    # Anomaly review etc.
 ```
+
+## Source data: schema by vintage
+
+The HDB resale CSVs in collection 189 are not schema-stable across vintages.
+The pipeline handles three in-scope files, and **only the most recent one
+carries `remaining_lease`**:
+
+| Vintage | File | Columns | Has `remaining_lease`? |
+|---|---|---:|:---:|
+| 2000 – Feb 2012 (Approval Date) | `ResaleFlatPricesBasedonApprovalDate2000Feb2012.csv` | 10 | no |
+| Mar 2012 – Dec 2014 (Registration Date) | `ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv` | 10 | no |
+| Jan 2015 – Dec 2016 (Registration Date) | `ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv` | **11** | **yes** |
+
+Implications for the pipeline:
+
+- **Combine** takes the **union** of columns. Pre-2015 rows get `NaN` for
+  `remaining_lease` and for the canonical `remaining_lease_years_original`
+  column we derive from it. This is correct, not a defect — those files
+  simply don't carry the data.
+- The 2015–2016 file stores `remaining_lease` as **integer years** already
+  (verified by inspection: dtype `int64`, sample values like 70, 65, 64).
+  No string parsing is needed for in-scope data.
+- The 2017+ vintage (out of scope) uses an `"X years Y months"` string
+  format. This format is intentionally **not** parsed by the current
+  pipeline; the `_normalize_remaining_lease` function in `src/combine.py`
+  documents this and would need to be extended if the scope is later
+  widened to include 2017+.
+- **Dedupe (Stage 5) needs to be designed with this schema difference in
+  mind.** The brief defines the composite key as "all columns except
+  resale_price"; the schema difference means the key will include
+  `remaining_lease`, which is `NaN` for all pre-2015 rows. Pandas treats
+  `NaN == NaN` as equal for the purpose of `duplicated()`, and the three
+  vintages don't share time windows, so this is workable — but the decision
+  will be revisited and documented when dedupe is implemented.
 
 ## Design decisions and assumptions
 
