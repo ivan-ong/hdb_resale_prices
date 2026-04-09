@@ -112,7 +112,7 @@ Implications for the pipeline:
 | 2. Combine | `src/combine.py` | in-memory `master` DataFrame (schema union) |
 | 3. Profile | `src/profile.py` | in-notebook `ProfileReport` dataclass |
 | 4. Validate | `src/validate.py` | `data/failed/validation_failures.csv` |
-| 5. Clean | `src/clean.py` | `data/cleaned/hdb_resale_cleaned.{csv,parquet}` plus three side files in `data/failed/` |
+| 5. Clean | `src/clean.py` | `data/cleaned/hdb_resale_cleaned.csv` plus side files in `data/failed/` and `data/reports/` |
 
 ### Stage 5 — Clean: anomaly detection heuristic
 
