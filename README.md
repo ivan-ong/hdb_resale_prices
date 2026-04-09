@@ -21,10 +21,10 @@ pip install -e ".[dev]"
 jupyter notebook notebook/hdb_etl.ipynb
 ```
 
-Then **Kernel → Restart Kernel and Run All Cells**. Cell 0 (Setup) prints
-the resolved Python and dependency versions and will fail loudly if any
-import is missing, so a misconfigured env surfaces immediately rather than
-mid-pipeline.
+Then **Kernel → Restart Kernel and Run All Cells**. The Setup section
+prints the resolved Python and dependency versions and will fail loudly
+if any import is missing, so a misconfigured env surfaces immediately
+rather than mid-pipeline.
 
 On a fresh clone the raw CSVs are already present in `data/raw/`, so the
 pipeline runs end-to-end **without network access**. The download path is
@@ -483,6 +483,7 @@ boring, correct choice.
   intra-family transfers from data-entry errors from genuine outliers;
   it surfaces all three for review.
 - The Resale Identifier is intentionally lossy. ~15% of cleaned rows
-  collide on the identifier and are dropped by Stage 6b. If the
-  downstream consumer needs a lossless join back to the cleaned row,
-  the composite key from Stage 5 should be used, not the identifier.
+  collide on the identifier and are dropped by the identifier-collision
+  dedupe in Stage 6. If the downstream consumer needs a lossless join
+  back to the cleaned row, the composite key from Stage 5 should be
+  used, not the identifier.
