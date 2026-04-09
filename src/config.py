@@ -84,6 +84,19 @@ COMPOSITE_KEY_COLUMNS: list[str] = []
 PIPELINE_METADATA_COLUMNS: list[str] = ["source_file"]
 
 # ---------------------------------------------------------------------------
+# Profiling
+# ---------------------------------------------------------------------------
+
+# A column with more than this fraction of nulls is flagged for review.
+PROFILE_HIGH_NULL_THRESHOLD: float = 0.50
+
+# How many top values to show per string column in the profile report.
+PROFILE_TOP_N_VALUES: int = 10
+
+# How many distinct sample values to display per column in the overview table.
+PROFILE_SAMPLE_VALUES: int = 3
+
+# ---------------------------------------------------------------------------
 # Anomaly detection
 # ---------------------------------------------------------------------------
 
