@@ -96,11 +96,6 @@ Implications for the pipeline:
 - The 2015–2016 file stores `remaining_lease` as **integer years** already
   (verified by inspection: dtype `int64`, sample values like 70, 65, 64).
   No string parsing is needed for in-scope data.
-- The 2017+ vintage (out of scope) uses an `"X years Y months"` string
-  format. This format is intentionally **not** parsed by the current
-  pipeline; the `_normalize_remaining_lease` function in `src/combine.py`
-  documents this and would need to be extended if the scope is later
-  widened to include 2017+.
 - **Dedupe (Stage 5)** explicitly excludes `remaining_lease` and the
   derived `remaining_lease_years_original` from the composite key — they
   are `NaN` for every pre-2015 row by design, and including them would
@@ -224,9 +219,7 @@ after the schema union — which is correct, not a defect.
 - **Canonical lease column for in-scope data is an `Int64`.** The 2015–
   2016 file stores `remaining_lease` as integer years (e.g. `70`, `65`,
   `64`), so we cast to nullable `Int64` and land it in the master as
-  `remaining_lease_years_original`. The 2017+ `"X years Y months"`
-  string format is explicitly not parsed — it's out of scope, and
-  extending the parser without the data to test it would be speculative.
+  `remaining_lease_years_original`.
 
 ### Stage 3 — Profile
 
