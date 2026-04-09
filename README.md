@@ -98,30 +98,69 @@ Implications for the pipeline:
   pipeline; the `_normalize_remaining_lease` function in `src/combine.py`
   documents this and would need to be extended if the scope is later
   widened to include 2017+.
-- **Dedupe (Stage 5) needs to be designed with this schema difference in
-  mind.** The brief defines the composite key as "all columns except
-  resale_price"; the schema difference means the key will include
-  `remaining_lease`, which is `NaN` for all pre-2015 rows. Pandas treats
-  `NaN == NaN` as equal for the purpose of `duplicated()`, and the three
-  vintages don't share time windows, so this is workable — but the decision
-  will be revisited and documented when dedupe is implemented.
+- **Dedupe (Stage 5)** explicitly excludes `remaining_lease` and the
+  derived `remaining_lease_years_original` from the composite key — they
+  are `NaN` for every pre-2015 row by design, and including them would
+  prevent the same logical transaction across vintages from collapsing.
+  See `src/clean.py:_NON_KEY_COLUMNS`.
 
-## Design decisions and assumptions
+## Pipeline stages
 
-To be filled in as each stage is implemented. Topics to cover:
+| Stage | Module | Output |
+|---|---|---|
+| 1. Ingest | `src/ingest.py` | `data/raw/*.csv` (committed) |
+| 2. Combine | `src/combine.py` | in-memory `master` DataFrame (schema union) |
+| 3. Profile | `src/profile.py` | in-notebook `ProfileReport` dataclass |
+| 4. Validate | `src/validate.py` | `data/failed/validation_failures.csv` |
+| 5. Clean | `src/clean.py` | `data/cleaned/hdb_resale_cleaned.{csv,parquet}` plus three side files in `data/failed/` |
 
-- Why `data/raw/` is committed to the repo
-- Why hand-rolled validation (no `great_expectations`) and custom profiling
-  (no `ydata-profiling`)
-- Lease recomputation rule and `as_of_date` handling
-- Dedupe policy and composite key definition
-- Anomaly detection heuristic and acknowledged blind spots
-- Validation framing: rules derived from the master are forward-batch gates;
-  on the master itself they primarily catch normalization defects
+### Stage 5 — Clean: anomaly detection heuristic
+
+Resale-price anomalies are flagged (not dropped) by an **asymmetric IQR
+rule on price-per-sqm**, grouped by `(town, flat_type, year)`:
+
+```
+ppsm = resale_price / floor_area_sqm
+flag if ppsm < Q1 − 1.5·IQR  (below_lower_iqr_bound)
+flag if ppsm > Q3 + 3.0·IQR  (above_upper_iqr_bound)
+```
+
+Multipliers live in `src/config.py` (`IQR_LOWER_MULT=1.5`,
+`IQR_UPPER_MULT=3.0`). The asymmetry is deliberate: a flat priced at half
+the going rate is far more suspicious than one at double — the cheap-side
+tail is dominated by data-entry slips and intra-family transfers, the
+expensive-side tail by genuine luxury units (penthouses, large
+maisonettes) that are rare but real. Singleton groups (one observation in
+a given (town, flat_type, year)) have IQR = 0 and so are never flagged,
+which is the safe behaviour: we don't flag rows we have nothing to
+compare against.
+
+Anomalies are written to `data/reports/price_anomalies_flagged.csv` for
+review *and* retained in the cleaned output with `price_anomaly_flag=True`
+and a `price_anomaly_reason` so downstream consumers can decide whether
+to filter them out. The brief reserves `data/failed/` for records that
+were *removed* (DQ §5 duplicates, §3 validation failures); §6 anomalies
+are flagged-not-removed and so live under `reports/`.
+
+### Validation framing
+
+Stage 4's categorical rules (Town, Flat Type, Flat Model, storey_range)
+derive their allowed sets from the master at runtime. On the master
+itself they are tautological by construction; the substantive use is to
+**gate future batches** against a frozen master spec. On the in-scope
+master, the only rule that ever fires is `floor_area_within_iqr_bounds`
+— a small handful of structurally valid but statistically extreme floor
+areas in the upper tail.
 
 ## Known limitations
 
-To be filled in.
+- The 2017+ vintage uses an `"X years Y months"` string format for
+  `remaining_lease` which is intentionally not parsed (out of scope).
+- Recomputed lease assumes a January-1 lease start, since the source
+  `lease_commence_date` is a year, not a calendar date.
+- The price-anomaly heuristic is unsupervised. It does not distinguish
+  intra-family transfers from data-entry errors from genuine outliers; it
+  surfaces all three for review.
 
 ## Out of scope (Part 1, this pass)
 

@@ -1,0 +1,624 @@
+month,town,flat_type,block,street_name,storey_range,floor_area_sqm,flat_model,lease_commence_date,resale_price,source_file,remaining_lease,remaining_lease_years_original,remaining_lease_computed_months,remaining_lease_computed,price_anomaly_flag,price_anomaly_reason
+2012-01,ANG MO KIO,2 ROOM,174,ANG MO KIO AVE 4,07 TO 09,45.0,Improved,1986,226000.0,ResaleFlatPricesBasedonApprovalDate2000Feb2012.csv,,,704,58 years 8 months,True,below_lower_iqr_bound
+2012-01,BUKIT PANJANG,3 ROOM,249,BANGKIT RD,07 TO 09,73.0,Model A,1989,301000.0,ResaleFlatPricesBasedonApprovalDate2000Feb2012.csv,,,740,61 years 8 months,True,below_lower_iqr_bound
+2012-01,HOUGANG,3 ROOM,111,HOUGANG AVE 1,01 TO 03,80.0,New Generation,1983,325000.0,ResaleFlatPricesBasedonApprovalDate2000Feb2012.csv,,,668,55 years 8 months,True,below_lower_iqr_bound
+2012-01,HOUGANG,3 ROOM,309,HOUGANG AVE 5,01 TO 03,82.0,New Generation,1982,340000.0,ResaleFlatPricesBasedonApprovalDate2000Feb2012.csv,,,656,54 years 8 months,True,below_lower_iqr_bound
+2012-01,HOUGANG,4 ROOM,575,HOUGANG ST 51,04 TO 06,100.0,Model A,1997,334000.0,ResaleFlatPricesBasedonApprovalDate2000Feb2012.csv,,,836,69 years 8 months,True,below_lower_iqr_bound
+2012-01,HOUGANG,5 ROOM,339,HOUGANG AVE 7,01 TO 03,125.0,Improved,1985,442888.0,ResaleFlatPricesBasedonApprovalDate2000Feb2012.csv,,,692,57 years 8 months,True,below_lower_iqr_bound
+2012-01,HOUGANG,EXECUTIVE,628,HOUGANG AVE 8,01 TO 03,152.0,Apartment,1986,475000.0,ResaleFlatPricesBasedonApprovalDate2000Feb2012.csv,,,704,58 years 8 months,True,below_lower_iqr_bound
+2012-01,JURONG WEST,3 ROOM,111,HO CHING RD,01 TO 03,67.0,Improved,1970,246000.0,ResaleFlatPricesBasedonApprovalDate2000Feb2012.csv,,,512,42 years 8 months,True,below_lower_iqr_bound
+2012-01,KALLANG/WHAMPOA,3 ROOM,59,JLN MA'MOR,01 TO 03,79.0,Terrace,1972,705000.0,ResaleFlatPricesBasedonApprovalDate2000Feb2012.csv,,,536,44 years 8 months,True,above_upper_iqr_bound
+2012-01,TAMPINES,3 ROOM,138,TAMPINES ST 11,01 TO 03,93.0,Model A,1984,396000.0,ResaleFlatPricesBasedonApprovalDate2000Feb2012.csv,,,680,56 years 8 months,True,below_lower_iqr_bound
+2012-02,ANG MO KIO,3 ROOM,456,ANG MO KIO AVE 10,01 TO 03,74.0,New Generation,1980,310000.0,ResaleFlatPricesBasedonApprovalDate2000Feb2012.csv,,,632,52 years 8 months,True,below_lower_iqr_bound
+2012-02,ANG MO KIO,3 ROOM,154,ANG MO KIO AVE 5,01 TO 03,68.0,New Generation,1981,288000.0,ResaleFlatPricesBasedonApprovalDate2000Feb2012.csv,,,644,53 years 8 months,True,below_lower_iqr_bound
+2012-02,ANG MO KIO,4 ROOM,700A,ANG MO KIO AVE 6,22 TO 24,90.0,Model A,2003,642000.0,ResaleFlatPricesBasedonApprovalDate2000Feb2012.csv,,,908,75 years 8 months,True,above_upper_iqr_bound
+2012-02,BEDOK,4 ROOM,180,BEDOK NTH RD,19 TO 21,85.0,Model A,2006,598000.0,ResaleFlatPricesBasedonApprovalDate2000Feb2012.csv,,,944,78 years 8 months,True,above_upper_iqr_bound
+2012-02,BEDOK,EXECUTIVE,115,BEDOK RESERVOIR RD,04 TO 06,150.0,Maisonette,1985,505000.0,ResaleFlatPricesBasedonApprovalDate2000Feb2012.csv,,,692,57 years 8 months,True,below_lower_iqr_bound
+2012-02,BUKIT BATOK,4 ROOM,416,BT BATOK WEST AVE 4,10 TO 12,103.0,Model A,1987,340000.0,ResaleFlatPricesBasedonApprovalDate2000Feb2012.csv,,,716,59 years 8 months,True,below_lower_iqr_bound
+2012-02,CENTRAL AREA,4 ROOM,8,SELEGIE RD,01 TO 03,112.0,Adjoined flat,1974,368000.0,ResaleFlatPricesBasedonApprovalDate2000Feb2012.csv,,,560,46 years 8 months,True,below_lower_iqr_bound
+2012-02,CLEMENTI,EXECUTIVE,206,CLEMENTI AVE 6,10 TO 12,150.0,Maisonette,1985,720000.0,ResaleFlatPricesBasedonApprovalDate2000Feb2012.csv,,,692,57 years 8 months,True,below_lower_iqr_bound
+2012-02,JURONG WEST,3 ROOM,170,BOON LAY DR,04 TO 06,70.0,Improved,1974,242000.0,ResaleFlatPricesBasedonApprovalDate2000Feb2012.csv,,,560,46 years 8 months,True,below_lower_iqr_bound
+2012-02,PUNGGOL,EXECUTIVE,114,EDGEFIELD PLAINS,07 TO 09,130.0,Premium Apartment,2003,555000.0,ResaleFlatPricesBasedonApprovalDate2000Feb2012.csv,,,908,75 years 8 months,True,below_lower_iqr_bound
+2012-02,QUEENSTOWN,2 ROOM,42,TANGLIN HALT RD,01 TO 03,43.0,Standard,1973,298000.0,ResaleFlatPricesBasedonApprovalDate2000Feb2012.csv,,,548,45 years 8 months,True,above_upper_iqr_bound
+2012-02,WOODLANDS,5 ROOM,142,MARSILING RD,04 TO 06,134.0,Model A,1995,392000.0,ResaleFlatPricesBasedonApprovalDate2000Feb2012.csv,,,812,67 years 8 months,True,below_lower_iqr_bound
+2012-02,WOODLANDS,EXECUTIVE,124,MARSILING RISE,01 TO 03,168.0,Apartment,1995,550000.0,ResaleFlatPricesBasedonApprovalDate2000Feb2012.csv,,,812,67 years 8 months,True,below_lower_iqr_bound
+2015-01,BEDOK,3 ROOM,426,BEDOK NTH RD,07 TO 09,82.0,New Generation,1979,300000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,63.0,63,620,51 years 8 months,True,below_lower_iqr_bound
+2015-01,BEDOK,3 ROOM,221B,BEDOK CTRL,04 TO 06,69.0,Model A,2010,458000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,94.0,94,992,82 years 8 months,True,above_upper_iqr_bound
+2015-01,BEDOK,3 ROOM,219A,BEDOK CTRL,16 TO 18,69.0,Model A,2010,500000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,94.0,94,992,82 years 8 months,True,above_upper_iqr_bound
+2015-01,BEDOK,4 ROOM,180,BEDOK NTH RD,16 TO 18,85.0,Model A,2006,560000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,90.0,90,944,78 years 8 months,True,above_upper_iqr_bound
+2015-01,CENTRAL AREA,4 ROOM,53,CHIN SWEE RD,19 TO 21,77.0,Improved,1974,493000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,58.0,58,560,46 years 8 months,True,below_lower_iqr_bound
+2015-01,CHOA CHU KANG,4 ROOM,641,CHOA CHU KANG ST 64,10 TO 12,100.0,Premium Apartment,1998,515000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,82.0,82,848,70 years 8 months,True,above_upper_iqr_bound
+2015-01,GEYLANG,3 ROOM,82,MACPHERSON LANE,01 TO 03,61.0,Standard,1968,210000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,52.0,52,488,40 years 8 months,True,below_lower_iqr_bound
+2015-01,GEYLANG,3 ROOM,34,EUNOS CRES,16 TO 18,60.0,Model A,2006,475000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,90.0,90,944,78 years 8 months,True,above_upper_iqr_bound
+2015-01,HOUGANG,3 ROOM,22,HOUGANG AVE 3,01 TO 03,73.0,New Generation,1978,262000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,62.0,62,608,50 years 8 months,True,below_lower_iqr_bound
+2015-01,KALLANG/WHAMPOA,3 ROOM,44,JLN BAHAGIA,01 TO 03,85.0,Terrace,1972,760000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,56.0,56,536,44 years 8 months,True,above_upper_iqr_bound
+2015-01,PASIR RIS,3 ROOM,5,CHANGI VILLAGE RD,01 TO 03,66.0,Improved,1981,290000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,65.0,65,644,53 years 8 months,True,above_upper_iqr_bound
+2015-01,SEMBAWANG,5 ROOM,304,CANBERRA RD,01 TO 03,123.0,Improved,1998,380000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,82.0,82,848,70 years 8 months,True,below_lower_iqr_bound
+2015-01,SENGKANG,3 ROOM,302B,ANCHORVALE LINK,07 TO 09,88.0,Model A,2007,357000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,91.0,91,956,79 years 8 months,True,below_lower_iqr_bound
+2015-01,TAMPINES,5 ROOM,515C,TAMPINES CTRL 7,10 TO 12,108.0,DBSS,2008,678000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,968,80 years 8 months,True,above_upper_iqr_bound
+2015-01,TAMPINES,5 ROOM,518A,TAMPINES CTRL 7,16 TO 18,109.0,DBSS,2008,698000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,968,80 years 8 months,True,above_upper_iqr_bound
+2015-02,BEDOK,4 ROOM,220C,BEDOK CTRL,10 TO 12,94.0,Model A,2010,637500.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,94.0,94,992,82 years 8 months,True,above_upper_iqr_bound
+2015-02,CENTRAL AREA,4 ROOM,334,KRETA AYER RD,16 TO 18,83.0,Improved,1981,560000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,65.0,65,644,53 years 8 months,True,below_lower_iqr_bound
+2015-02,HOUGANG,5 ROOM,837,HOUGANG CTRL,10 TO 12,117.0,Improved,1997,659000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,81.0,81,836,69 years 8 months,True,above_upper_iqr_bound
+2015-02,KALLANG/WHAMPOA,3 ROOM,55,JLN BAHAGIA,01 TO 03,104.0,Terrace,1972,875000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,56.0,56,536,44 years 8 months,True,above_upper_iqr_bound
+2015-02,WOODLANDS,5 ROOM,128,MARSILING RISE,01 TO 03,134.0,Model A,1995,360000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,79.0,79,812,67 years 8 months,True,below_lower_iqr_bound
+2015-03,BEDOK,4 ROOM,185,BEDOK NTH RD,07 TO 09,85.0,Model A,2005,560000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,89.0,89,932,77 years 8 months,True,above_upper_iqr_bound
+2015-03,BEDOK,4 ROOM,180,BEDOK NTH RD,19 TO 21,85.0,Model A,2006,568000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,89.0,89,944,78 years 8 months,True,above_upper_iqr_bound
+2015-03,BEDOK,4 ROOM,219D,BEDOK CTRL,04 TO 06,94.0,Model A,2010,620000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,94.0,94,992,82 years 8 months,True,above_upper_iqr_bound
+2015-03,BEDOK,4 ROOM,221A,BEDOK CTRL,04 TO 06,97.0,Model A,2010,655000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,94.0,94,992,82 years 8 months,True,above_upper_iqr_bound
+2015-03,BUKIT BATOK,4 ROOM,164,BT BATOK ST 11,01 TO 03,107.0,Model A,1984,350000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,68.0,68,680,56 years 8 months,True,below_lower_iqr_bound
+2015-03,CENTRAL AREA,4 ROOM,671B,KLANG LANE,01 TO 03,85.0,Model A,2003,448000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,86.0,86,908,75 years 8 months,True,below_lower_iqr_bound
+2015-03,CHOA CHU KANG,4 ROOM,641,CHOA CHU KANG ST 64,13 TO 15,100.0,Premium Apartment,1998,480000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,81.0,81,848,70 years 8 months,True,above_upper_iqr_bound
+2015-03,CHOA CHU KANG,4 ROOM,638,CHOA CHU KANG ST 64,07 TO 09,100.0,Premium Apartment,1998,495000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,81.0,81,848,70 years 8 months,True,above_upper_iqr_bound
+2015-03,CHOA CHU KANG,EXECUTIVE,635,CHOA CHU KANG NTH 6,13 TO 15,143.0,Premium Maisonette,1998,763000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,81.0,81,848,70 years 8 months,True,above_upper_iqr_bound
+2015-03,KALLANG/WHAMPOA,3 ROOM,62,JLN MA'MOR,01 TO 03,81.0,Terrace,1972,708000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,56.0,56,536,44 years 8 months,True,above_upper_iqr_bound
+2015-03,QUEENSTOWN,3 ROOM,89,TANGLIN HALT RD,19 TO 21,60.0,Model A,2008,528000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,968,80 years 8 months,True,above_upper_iqr_bound
+2015-03,TAMPINES,4 ROOM,518A,TAMPINES CTRL 7,07 TO 09,92.0,DBSS,2008,565000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,968,80 years 8 months,True,above_upper_iqr_bound
+2015-03,TAMPINES,5 ROOM,515C,TAMPINES CTRL 7,13 TO 15,113.0,DBSS,2008,688888.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,968,80 years 8 months,True,above_upper_iqr_bound
+2015-03,TOA PAYOH,EXECUTIVE,99B,LOR 2 TOA PAYOH,04 TO 06,145.0,Apartment,1993,848000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,77.0,77,788,65 years 8 months,True,above_upper_iqr_bound
+2015-03,WOODLANDS,4 ROOM,33,MARSILING DR,04 TO 06,98.0,New Generation,1978,290000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,61.0,61,608,50 years 8 months,True,below_lower_iqr_bound
+2015-04,BEDOK,2 ROOM,514,BEDOK NTH AVE 2,07 TO 09,45.0,Improved,1979,220000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,63.0,63,620,51 years 8 months,True,below_lower_iqr_bound
+2015-04,BEDOK,4 ROOM,221A,BEDOK CTRL,07 TO 09,87.0,Model A,2010,615000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,94.0,94,992,82 years 8 months,True,above_upper_iqr_bound
+2015-04,BEDOK,4 ROOM,221C,BEDOK CTRL,07 TO 09,94.0,Model A,2010,630000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,94.0,94,992,82 years 8 months,True,above_upper_iqr_bound
+2015-04,CENTRAL AREA,4 ROOM,635,VEERASAMY RD,07 TO 09,103.0,Model A,1985,570000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,69.0,69,692,57 years 8 months,True,below_lower_iqr_bound
+2015-04,CHOA CHU KANG,4 ROOM,641,CHOA CHU KANG ST 64,13 TO 15,100.0,Premium Apartment,1998,495000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,81.0,81,848,70 years 8 months,True,above_upper_iqr_bound
+2015-04,PASIR RIS,3 ROOM,5,CHANGI VILLAGE RD,01 TO 03,66.0,Improved,1981,275000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,65.0,65,644,53 years 8 months,True,below_lower_iqr_bound
+2015-04,QUEENSTOWN,3 ROOM,90,TANGLIN HALT RD,10 TO 12,60.0,Model A,2008,510000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,968,80 years 8 months,True,above_upper_iqr_bound
+2015-04,QUEENSTOWN,5 ROOM,26,DOVER CRES,01 TO 03,123.0,Standard,1978,670000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,61.0,61,608,50 years 8 months,True,below_lower_iqr_bound
+2015-04,SENGKANG,3 ROOM,302B,ANCHORVALE LINK,04 TO 06,83.0,Model A,2007,315000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,91.0,91,956,79 years 8 months,True,below_lower_iqr_bound
+2015-04,TAMPINES,5 ROOM,515A,TAMPINES CTRL 7,07 TO 09,110.0,DBSS,2008,668000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,968,80 years 8 months,True,above_upper_iqr_bound
+2015-04,TAMPINES,5 ROOM,518D,TAMPINES CTRL 7,10 TO 12,109.0,DBSS,2008,688000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,968,80 years 8 months,True,above_upper_iqr_bound
+2015-04,TAMPINES,5 ROOM,515B,TAMPINES CTRL 7,13 TO 15,108.0,DBSS,2008,700000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,968,80 years 8 months,True,above_upper_iqr_bound
+2015-04,TAMPINES,5 ROOM,515B,TAMPINES CTRL 7,10 TO 12,113.0,DBSS,2008,715000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,968,80 years 8 months,True,above_upper_iqr_bound
+2015-05,ANG MO KIO,3 ROOM,418,ANG MO KIO AVE 10,04 TO 06,89.0,New Generation,1979,320000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,63.0,63,620,51 years 8 months,True,below_lower_iqr_bound
+2015-05,BEDOK,3 ROOM,219D,BEDOK CTRL,16 TO 18,69.0,Model A,2010,490000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,94.0,94,992,82 years 8 months,True,above_upper_iqr_bound
+2015-05,BUKIT BATOK,3 ROOM,157,BT BATOK ST 11,04 TO 06,82.0,New Generation,1998,292000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,81.0,81,848,70 years 8 months,True,below_lower_iqr_bound
+2015-05,BUKIT MERAH,3 ROOM,48,MOH GUAN TER,01 TO 03,60.0,Standard,1973,613000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,56.0,56,548,45 years 8 months,True,above_upper_iqr_bound
+2015-05,GEYLANG,3 ROOM,36,EUNOS CRES,13 TO 15,60.0,Model A,2006,428888.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,90.0,90,944,78 years 8 months,True,above_upper_iqr_bound
+2015-05,GEYLANG,3 ROOM,31,EUNOS CRES,19 TO 21,60.0,Model A,2007,440000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,90.0,90,956,79 years 8 months,True,above_upper_iqr_bound
+2015-05,KALLANG/WHAMPOA,3 ROOM,5A,UPP BOON KENG RD,25 TO 27,67.0,Model A,2012,568000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,96.0,96,1016,84 years 8 months,True,above_upper_iqr_bound
+2015-05,PUNGGOL,5 ROOM,134,EDGEDALE PLAINS,13 TO 15,112.0,Premium Apartment,2003,355000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,87.0,87,908,75 years 8 months,True,below_lower_iqr_bound
+2015-05,TAMPINES,5 ROOM,518B,TAMPINES CTRL 7,07 TO 09,108.0,DBSS,2008,665000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,968,80 years 8 months,True,above_upper_iqr_bound
+2015-05,TAMPINES,5 ROOM,518B,TAMPINES CTRL 7,10 TO 12,108.0,DBSS,2008,688000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,968,80 years 8 months,True,above_upper_iqr_bound
+2015-05,TAMPINES,5 ROOM,515D,TAMPINES CTRL 7,07 TO 09,109.0,DBSS,2008,728000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,968,80 years 8 months,True,above_upper_iqr_bound
+2015-05,WOODLANDS,3 ROOM,22,MARSILING DR,01 TO 03,82.0,New Generation,1977,270000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,61.0,61,596,49 years 8 months,True,below_lower_iqr_bound
+2015-05,WOODLANDS,4 ROOM,33,MARSILING DR,07 TO 09,98.0,New Generation,1978,293888.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,61.0,61,608,50 years 8 months,True,below_lower_iqr_bound
+2015-06,ANG MO KIO,3 ROOM,308A,ANG MO KIO AVE 1,25 TO 27,70.0,Model A,2012,442888.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,96.0,96,1016,84 years 8 months,True,above_upper_iqr_bound
+2015-06,ANG MO KIO,4 ROOM,310B,ANG MO KIO AVE 1,16 TO 18,87.0,Model A,2012,650000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,96.0,96,1016,84 years 8 months,True,above_upper_iqr_bound
+2015-06,BEDOK,4 ROOM,221A,BEDOK CTRL,10 TO 12,97.0,Model A,2010,625000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,992,82 years 8 months,True,above_upper_iqr_bound
+2015-06,BUKIT BATOK,3 ROOM,411,BT BATOK WEST AVE 4,01 TO 03,73.0,Model A,1986,260000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,69.0,69,704,58 years 8 months,True,below_lower_iqr_bound
+2015-06,BUKIT BATOK,4 ROOM,421,BT BATOK WEST AVE 2,01 TO 03,94.0,New Generation,1988,310000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,71.0,71,728,60 years 8 months,True,below_lower_iqr_bound
+2015-06,BUKIT BATOK,4 ROOM,417,BT BATOK WEST AVE 4,01 TO 03,103.0,Model A,1986,330000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,70.0,70,704,58 years 8 months,True,below_lower_iqr_bound
+2015-06,CENTRAL AREA,4 ROOM,642,ROWELL RD,04 TO 06,109.0,Model A,1984,530000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,67.0,67,680,56 years 8 months,True,below_lower_iqr_bound
+2015-06,CENTRAL AREA,4 ROOM,1F,CANTONMENT RD,04 TO 06,94.0,Type S1,2011,650000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,94.0,94,1004,83 years 8 months,True,below_lower_iqr_bound
+2015-06,CHOA CHU KANG,4 ROOM,705,CHOA CHU KANG ST 53,01 TO 03,114.0,Model A,1995,320000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,79.0,79,812,67 years 8 months,True,below_lower_iqr_bound
+2015-06,GEYLANG,3 ROOM,32,EUNOS CRES,13 TO 15,60.0,Model A,2007,450000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,90.0,90,956,79 years 8 months,True,above_upper_iqr_bound
+2015-06,HOUGANG,4 ROOM,536,HOUGANG ST 52,01 TO 03,110.0,Model A,1992,330000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,76.0,76,776,64 years 8 months,True,below_lower_iqr_bound
+2015-06,KALLANG/WHAMPOA,3 ROOM,50,JLN BAHAGIA,01 TO 03,88.0,Terrace,1972,838000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,56.0,56,536,44 years 8 months,True,above_upper_iqr_bound
+2015-06,PASIR RIS,5 ROOM,753,PASIR RIS ST 71,01 TO 03,128.0,Improved,1996,390000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,80.0,80,824,68 years 8 months,True,below_lower_iqr_bound
+2015-06,QUEENSTOWN,3 ROOM,18B,HOLLAND DR,25 TO 27,67.0,Model A,2012,578888.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,96.0,96,1016,84 years 8 months,True,above_upper_iqr_bound
+2015-06,TAMPINES,5 ROOM,518B,TAMPINES CTRL 7,07 TO 09,108.0,DBSS,2008,680000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,968,80 years 8 months,True,above_upper_iqr_bound
+2015-06,WOODLANDS,4 ROOM,743,WOODLANDS CIRCLE,04 TO 06,100.0,Model A2,1997,300000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,81.0,81,836,69 years 8 months,True,below_lower_iqr_bound
+2015-07,ANG MO KIO,3 ROOM,308A,ANG MO KIO AVE 1,28 TO 30,70.0,Model A,2012,480000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,96.0,96,1016,84 years 8 months,True,above_upper_iqr_bound
+2015-07,ANG MO KIO,3 ROOM,308B,ANG MO KIO AVE 1,28 TO 30,70.0,Model A,2012,488000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,96.0,96,1016,84 years 8 months,True,above_upper_iqr_bound
+2015-07,BEDOK,3 ROOM,221C,BEDOK CTRL,04 TO 06,69.0,Model A,2010,450000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,992,82 years 8 months,True,above_upper_iqr_bound
+2015-07,BEDOK,4 ROOM,219B,BEDOK CTRL,01 TO 03,87.0,Model A,2010,557000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,992,82 years 8 months,True,above_upper_iqr_bound
+2015-07,BEDOK,4 ROOM,221A,BEDOK CTRL,07 TO 09,97.0,Model A,2010,620000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,992,82 years 8 months,True,above_upper_iqr_bound
+2015-07,BEDOK,4 ROOM,221C,BEDOK CTRL,13 TO 15,94.0,Model A,2010,681168.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,992,82 years 8 months,True,above_upper_iqr_bound
+2015-07,CENTRAL AREA,4 ROOM,671B,KLANG LANE,13 TO 15,85.0,Model A,2003,448000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,86.0,86,908,75 years 8 months,True,below_lower_iqr_bound
+2015-07,CENTRAL AREA,4 ROOM,663,BUFFALO RD,16 TO 18,85.0,Improved,1982,469000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,65.0,65,656,54 years 8 months,True,below_lower_iqr_bound
+2015-07,CENTRAL AREA,4 ROOM,672B,KLANG LANE,07 TO 09,85.0,Model A,2002,515000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,86.0,86,896,74 years 8 months,True,below_lower_iqr_bound
+2015-07,CENTRAL AREA,4 ROOM,53,CHIN SWEE RD,25 TO 27,77.0,Improved,1974,525000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,58.0,58,560,46 years 8 months,True,below_lower_iqr_bound
+2015-07,CLEMENTI,EXECUTIVE,518,WEST COAST RD,10 TO 12,163.0,Adjoined flat,1980,670000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,63.0,63,632,52 years 8 months,True,below_lower_iqr_bound
+2015-07,TAMPINES,5 ROOM,515A,TAMPINES CTRL 7,16 TO 18,110.0,DBSS,2008,690000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,968,80 years 8 months,True,above_upper_iqr_bound
+2015-07,TAMPINES,5 ROOM,518C,TAMPINES CTRL 7,16 TO 18,108.0,DBSS,2008,725888.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,968,80 years 8 months,True,above_upper_iqr_bound
+2015-07,YISHUN,4 ROOM,284,YISHUN AVE 6,10 TO 12,104.0,Model A,1987,310000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,71.0,71,716,59 years 8 months,True,below_lower_iqr_bound
+2015-08,BEDOK,3 ROOM,219A,BEDOK CTRL,07 TO 09,62.0,Model A,2010,470000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,992,82 years 8 months,True,above_upper_iqr_bound
+2015-08,BEDOK,4 ROOM,221C,BEDOK CTRL,01 TO 03,94.0,Model A,2010,610000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,992,82 years 8 months,True,above_upper_iqr_bound
+2015-08,BEDOK,4 ROOM,221A,BEDOK CTRL,07 TO 09,94.0,Model A,2010,615000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,992,82 years 8 months,True,above_upper_iqr_bound
+2015-08,BEDOK,4 ROOM,219B,BEDOK CTRL,04 TO 06,97.0,Model A,2010,645000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,992,82 years 8 months,True,above_upper_iqr_bound
+2015-08,BUKIT BATOK,3 ROOM,234,BT BATOK EAST AVE 5,01 TO 03,73.0,New Generation,1985,260000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,69.0,69,692,57 years 8 months,True,below_lower_iqr_bound
+2015-08,BUKIT BATOK,4 ROOM,416,BT BATOK WEST AVE 4,04 TO 06,107.0,Model A,1987,353000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,71.0,71,716,59 years 8 months,True,below_lower_iqr_bound
+2015-08,CENTRAL AREA,4 ROOM,671A,KLANG LANE,04 TO 06,85.0,Model A,2003,470000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,86.0,86,908,75 years 8 months,True,below_lower_iqr_bound
+2015-08,CENTRAL AREA,4 ROOM,53,CHIN SWEE RD,19 TO 21,77.0,Improved,1974,480000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,57.0,57,560,46 years 8 months,True,below_lower_iqr_bound
+2015-08,CENTRAL AREA,4 ROOM,671B,KLANG LANE,07 TO 09,85.0,Model A,2003,520000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,86.0,86,908,75 years 8 months,True,below_lower_iqr_bound
+2015-08,CHOA CHU KANG,4 ROOM,643,CHOA CHU KANG ST 64,10 TO 12,100.0,Premium Apartment,1998,515000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,81.0,81,848,70 years 8 months,True,above_upper_iqr_bound
+2015-08,GEYLANG,3 ROOM,61,CIRCUIT RD,01 TO 03,59.0,Standard,1969,200000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,52.0,52,500,41 years 8 months,True,below_lower_iqr_bound
+2015-08,GEYLANG,3 ROOM,31,EUNOS CRES,07 TO 09,60.0,Model A,2007,430000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,90.0,90,956,79 years 8 months,True,above_upper_iqr_bound
+2015-08,GEYLANG,3 ROOM,31,EUNOS CRES,10 TO 12,60.0,Model A,2007,450000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,90.0,90,956,79 years 8 months,True,above_upper_iqr_bound
+2015-08,GEYLANG,3 ROOM,32,EUNOS CRES,16 TO 18,60.0,Model A,2007,455000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,90.0,90,956,79 years 8 months,True,above_upper_iqr_bound
+2015-08,KALLANG/WHAMPOA,3 ROOM,38,JLN BAHAGIA,01 TO 03,83.0,Terrace,1972,845888.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,55.0,55,536,44 years 8 months,True,above_upper_iqr_bound
+2015-08,TAMPINES,5 ROOM,518B,TAMPINES CTRL 7,10 TO 12,109.0,DBSS,2008,715000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,968,80 years 8 months,True,above_upper_iqr_bound
+2015-08,TOA PAYOH,2 ROOM,51,LOR 6 TOA PAYOH,13 TO 15,50.0,Standard,1983,230000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,66.0,66,668,55 years 8 months,True,below_lower_iqr_bound
+2015-08,TOA PAYOH,EXECUTIVE,20,JOO SENG RD,04 TO 06,146.0,Maisonette,1988,650000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,72.0,72,728,60 years 8 months,True,below_lower_iqr_bound
+2015-09,ANG MO KIO,2 ROOM,170,ANG MO KIO AVE 4,07 TO 09,45.0,Improved,1986,222000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,69.0,69,704,58 years 8 months,True,below_lower_iqr_bound
+2015-09,ANG MO KIO,3 ROOM,107,ANG MO KIO AVE 4,01 TO 03,74.0,New Generation,1978,275000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,61.0,61,608,50 years 8 months,True,below_lower_iqr_bound
+2015-09,ANG MO KIO,4 ROOM,234,ANG MO KIO AVE 3,01 TO 03,114.0,Model A,1993,390000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,76.0,76,788,65 years 8 months,True,below_lower_iqr_bound
+2015-09,CENTRAL AREA,4 ROOM,53,CHIN SWEE RD,13 TO 15,77.0,Improved,1974,485000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,57.0,57,560,46 years 8 months,True,below_lower_iqr_bound
+2015-09,SENGKANG,3 ROOM,302B,ANCHORVALE LINK,04 TO 06,83.0,Model A,2007,335000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,90.0,90,956,79 years 8 months,True,below_lower_iqr_bound
+2015-09,SENGKANG,3 ROOM,302B,ANCHORVALE LINK,01 TO 03,83.0,Model A,2007,345888.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,90.0,90,956,79 years 8 months,True,below_lower_iqr_bound
+2015-09,TAMPINES,5 ROOM,515D,TAMPINES CTRL 7,13 TO 15,110.0,DBSS,2008,720000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,968,80 years 8 months,True,above_upper_iqr_bound
+2015-09,TAMPINES,5 ROOM,518B,TAMPINES CTRL 7,16 TO 18,108.0,DBSS,2008,745000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,968,80 years 8 months,True,above_upper_iqr_bound
+2015-10,BEDOK,3 ROOM,219A,BEDOK CTRL,07 TO 09,62.0,Model A,2010,478000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,992,82 years 8 months,True,above_upper_iqr_bound
+2015-10,BEDOK,4 ROOM,221B,BEDOK CTRL,04 TO 06,94.0,Model A,2010,625000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,992,82 years 8 months,True,above_upper_iqr_bound
+2015-10,BISHAN,EXECUTIVE,238,BISHAN ST 22,01 TO 03,149.0,Maisonette,1992,730000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,75.0,75,776,64 years 8 months,True,below_lower_iqr_bound
+2015-10,BUKIT BATOK,4 ROOM,417,BT BATOK WEST AVE 4,04 TO 06,103.0,Model A,1986,340000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,69.0,69,704,58 years 8 months,True,below_lower_iqr_bound
+2015-10,BUKIT BATOK,4 ROOM,621,BT BATOK CTRL,19 TO 21,90.0,Model A,2003,580000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,87.0,87,908,75 years 8 months,True,above_upper_iqr_bound
+2015-10,CENTRAL AREA,4 ROOM,663,BUFFALO RD,07 TO 09,85.0,Improved,1982,460000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,65.0,65,656,54 years 8 months,True,below_lower_iqr_bound
+2015-10,CENTRAL AREA,4 ROOM,634,VEERASAMY RD,19 TO 21,107.0,Model A,1985,610000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,68.0,68,692,57 years 8 months,True,below_lower_iqr_bound
+2015-10,HOUGANG,3 ROOM,23,HOUGANG AVE 3,01 TO 03,73.0,New Generation,1978,260000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,61.0,61,608,50 years 8 months,True,below_lower_iqr_bound
+2015-10,KALLANG/WHAMPOA,3 ROOM,49,JLN BAHAGIA,01 TO 03,80.0,Terrace,1972,750800.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,55.0,55,536,44 years 8 months,True,above_upper_iqr_bound
+2015-10,MARINE PARADE,3 ROOM,34,MARINE CRES,04 TO 06,59.0,Improved,1975,290000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,58.0,58,572,47 years 8 months,True,below_lower_iqr_bound
+2015-10,MARINE PARADE,3 ROOM,47,MARINE CRES,01 TO 03,76.0,Improved,1975,365000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,58.0,58,572,47 years 8 months,True,below_lower_iqr_bound
+2015-10,PASIR RIS,4 ROOM,639,PASIR RIS DR 1,04 TO 06,104.0,Model A,1995,340000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,78.0,78,812,67 years 8 months,True,below_lower_iqr_bound
+2015-10,QUEENSTOWN,3 ROOM,89,TANGLIN HALT RD,22 TO 24,60.0,Model A,2008,523000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,91.0,91,968,80 years 8 months,True,above_upper_iqr_bound
+2015-10,TAMPINES,4 ROOM,518A,TAMPINES CTRL 7,10 TO 12,92.0,DBSS,2008,588000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,968,80 years 8 months,True,above_upper_iqr_bound
+2015-10,TAMPINES,5 ROOM,515A,TAMPINES CTRL 7,07 TO 09,109.0,DBSS,2008,670000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,968,80 years 8 months,True,above_upper_iqr_bound
+2015-10,TAMPINES,5 ROOM,518C,TAMPINES CTRL 7,13 TO 15,109.0,DBSS,2008,698000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,968,80 years 8 months,True,above_upper_iqr_bound
+2015-10,TAMPINES,5 ROOM,518C,TAMPINES CTRL 7,10 TO 12,113.0,DBSS,2008,720000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,968,80 years 8 months,True,above_upper_iqr_bound
+2015-11,BEDOK,3 ROOM,219D,BEDOK CTRL,04 TO 06,69.0,Model A,2010,473000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,992,82 years 8 months,True,above_upper_iqr_bound
+2015-11,BEDOK,4 ROOM,182,BEDOK NTH RD,13 TO 15,85.0,Model A,2006,565000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,89.0,89,944,78 years 8 months,True,above_upper_iqr_bound
+2015-11,BEDOK,4 ROOM,185,BEDOK NTH RD,13 TO 15,85.0,Model A,2005,575000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,89.0,89,932,77 years 8 months,True,above_upper_iqr_bound
+2015-11,BUKIT BATOK,4 ROOM,414,BT BATOK WEST AVE 4,04 TO 06,103.0,Model A,1987,330000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,70.0,70,716,59 years 8 months,True,below_lower_iqr_bound
+2015-11,BUKIT BATOK,4 ROOM,621,BT BATOK CTRL,10 TO 12,90.0,Model A,2003,565000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,87.0,87,908,75 years 8 months,True,above_upper_iqr_bound
+2015-11,BUKIT TIMAH,5 ROOM,4,TOH YI DR,01 TO 03,127.0,Improved,1988,715000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,71.0,71,728,60 years 8 months,True,below_lower_iqr_bound
+2015-11,CENTRAL AREA,4 ROOM,662,BUFFALO RD,01 TO 03,82.0,Improved,1982,410000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,65.0,65,656,54 years 8 months,True,below_lower_iqr_bound
+2015-11,CENTRAL AREA,4 ROOM,671B,KLANG LANE,07 TO 09,85.0,Model A,2003,515000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,86.0,86,908,75 years 8 months,True,below_lower_iqr_bound
+2015-11,CENTRAL AREA,4 ROOM,642,ROWELL RD,16 TO 18,111.0,Model A,1984,620000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,67.0,67,680,56 years 8 months,True,below_lower_iqr_bound
+2015-11,CENTRAL AREA,5 ROOM,642,ROWELL RD,25 TO 27,137.0,Model A,1984,760000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,67.0,67,680,56 years 8 months,True,below_lower_iqr_bound
+2015-11,CHOA CHU KANG,4 ROOM,639,CHOA CHU KANG ST 64,07 TO 09,100.0,Premium Apartment,1998,470000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,81.0,81,848,70 years 8 months,True,above_upper_iqr_bound
+2015-11,CLEMENTI,4 ROOM,441B,CLEMENTI AVE 3,22 TO 24,87.0,Model A,2012,850000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1016,84 years 8 months,True,above_upper_iqr_bound
+2015-11,GEYLANG,3 ROOM,36,EUNOS CRES,13 TO 15,60.0,Model A,2006,453000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,90.0,90,944,78 years 8 months,True,above_upper_iqr_bound
+2015-11,HOUGANG,4 ROOM,314,HOUGANG AVE 5,01 TO 03,94.0,New Generation,1993,289300.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,76.0,76,788,65 years 8 months,True,below_lower_iqr_bound
+2015-11,QUEENSTOWN,3 ROOM,18A,HOLLAND DR,16 TO 18,67.0,Model A,2012,580000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1016,84 years 8 months,True,above_upper_iqr_bound
+2015-11,SEMBAWANG,5 ROOM,323,SEMBAWANG CL,01 TO 03,120.0,Improved,1999,360000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,82.0,82,860,71 years 8 months,True,below_lower_iqr_bound
+2015-11,SENGKANG,3 ROOM,436B,FERNVALE RD,01 TO 03,69.0,Model A,2010,277000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,992,82 years 8 months,True,below_lower_iqr_bound
+2015-11,TAMPINES,3 ROOM,285,TAMPINES ST 22,01 TO 03,74.0,Model A,1984,270000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,67.0,67,680,56 years 8 months,True,below_lower_iqr_bound
+2015-11,TAMPINES,3 ROOM,139,TAMPINES ST 11,01 TO 03,93.0,Model A,1984,315000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,67.0,67,680,56 years 8 months,True,below_lower_iqr_bound
+2015-11,TAMPINES,5 ROOM,518B,TAMPINES CTRL 7,04 TO 06,108.0,DBSS,2008,660000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,968,80 years 8 months,True,above_upper_iqr_bound
+2015-11,TAMPINES,5 ROOM,515D,TAMPINES CTRL 7,07 TO 09,109.0,DBSS,2008,720000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,968,80 years 8 months,True,above_upper_iqr_bound
+2015-12,BEDOK,4 ROOM,220B,BEDOK CTRL,04 TO 06,94.0,Model A,2010,645000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,992,82 years 8 months,True,above_upper_iqr_bound
+2015-12,BEDOK,4 ROOM,221A,BEDOK CTRL,04 TO 06,94.0,Model A,2010,665000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,992,82 years 8 months,True,above_upper_iqr_bound
+2015-12,BEDOK,4 ROOM,219B,BEDOK CTRL,10 TO 12,94.0,Model A,2010,663000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,992,82 years 8 months,True,above_upper_iqr_bound
+2015-12,BISHAN,3 ROOM,22,SIN MING RD,04 TO 06,68.0,Improved,1973,267000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,56.0,56,548,45 years 8 months,True,below_lower_iqr_bound
+2015-12,BUKIT PANJANG,4 ROOM,184,JELEBU RD,19 TO 21,91.0,Premium Apartment,2003,560000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,86.0,86,908,75 years 8 months,True,above_upper_iqr_bound
+2015-12,CENTRAL AREA,4 ROOM,663,BUFFALO RD,13 TO 15,85.0,Improved,1982,460000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,65.0,65,656,54 years 8 months,True,below_lower_iqr_bound
+2015-12,CLEMENTI,4 ROOM,441B,CLEMENTI AVE 3,37 TO 39,96.0,Model A,2012,888888.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1016,84 years 8 months,True,above_upper_iqr_bound
+2015-12,CLEMENTI,4 ROOM,441A,CLEMENTI AVE 3,34 TO 36,93.0,Model A,2012,900000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1016,84 years 8 months,True,above_upper_iqr_bound
+2015-12,GEYLANG,3 ROOM,31,EUNOS CRES,07 TO 09,60.0,Model A,2007,430000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,90.0,90,956,79 years 8 months,True,above_upper_iqr_bound
+2015-12,HOUGANG,5 ROOM,440,HOUGANG AVE 8,01 TO 03,133.0,Improved,1990,450000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,73.0,73,752,62 years 8 months,True,below_lower_iqr_bound
+2015-12,JURONG WEST,3 ROOM,450,JURONG WEST ST 42,01 TO 03,94.0,Model A,1985,310000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,68.0,68,692,57 years 8 months,True,below_lower_iqr_bound
+2015-12,KALLANG/WHAMPOA,3 ROOM,59,JLN MA'MOR,01 TO 03,79.0,Terrace,1972,760000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,55.0,55,536,44 years 8 months,True,above_upper_iqr_bound
+2015-12,PASIR RIS,5 ROOM,142,PASIR RIS ST 11,07 TO 09,128.0,Improved,1994,395000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,77.0,77,800,66 years 8 months,True,below_lower_iqr_bound
+2015-12,PUNGGOL,3 ROOM,602A,PUNGGOL CTRL,04 TO 06,70.0,Model A,2012,335000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1016,84 years 8 months,True,below_lower_iqr_bound
+2015-12,QUEENSTOWN,3 ROOM,18A,HOLLAND DR,34 TO 36,67.0,Model A,2012,595000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1016,84 years 8 months,True,above_upper_iqr_bound
+2015-12,QUEENSTOWN,3 ROOM,18A,HOLLAND DR,25 TO 27,67.0,Model A,2012,565000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1016,84 years 8 months,True,above_upper_iqr_bound
+2015-12,TAMPINES,4 ROOM,518A,TAMPINES CTRL 7,16 TO 18,92.0,DBSS,2008,597000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,968,80 years 8 months,True,above_upper_iqr_bound
+2015-12,TAMPINES,5 ROOM,518A,TAMPINES CTRL 7,10 TO 12,109.0,DBSS,2008,708000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,968,80 years 8 months,True,above_upper_iqr_bound
+2015-12,YISHUN,4 ROOM,253,YISHUN RING RD,04 TO 06,104.0,Model A,1985,310000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,68.0,68,692,57 years 8 months,True,below_lower_iqr_bound
+2016-01,ANG MO KIO,3 ROOM,308A,ANG MO KIO AVE 1,16 TO 18,70.0,Model A,2012,459000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1016,84 years 8 months,True,above_upper_iqr_bound
+2016-01,ANG MO KIO,3 ROOM,308A,ANG MO KIO AVE 1,25 TO 27,70.0,Model A,2012,476000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1016,84 years 8 months,True,above_upper_iqr_bound
+2016-01,ANG MO KIO,3 ROOM,308B,ANG MO KIO AVE 1,19 TO 21,70.0,Model A,2012,480000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1016,84 years 8 months,True,above_upper_iqr_bound
+2016-01,ANG MO KIO,4 ROOM,700C,ANG MO KIO AVE 6,19 TO 21,85.0,Model A,2003,628000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,86.0,86,908,75 years 8 months,True,above_upper_iqr_bound
+2016-01,BEDOK,3 ROOM,219A,BEDOK CTRL,01 TO 03,62.0,Model A,2010,420000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,992,82 years 8 months,True,above_upper_iqr_bound
+2016-01,BEDOK,3 ROOM,220A,BEDOK CTRL,07 TO 09,69.0,Model A,2010,480000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,992,82 years 8 months,True,above_upper_iqr_bound
+2016-01,BISHAN,EXECUTIVE,446,BRIGHT HILL DR,07 TO 09,199.0,Maisonette,1990,900000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,73.0,73,752,62 years 8 months,True,below_lower_iqr_bound
+2016-01,BUKIT BATOK,3 ROOM,321,BT BATOK ST 33,04 TO 06,68.0,New Generation,1986,234000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,69.0,69,704,58 years 8 months,True,below_lower_iqr_bound
+2016-01,CENTRAL AREA,5 ROOM,634,VEERASAMY RD,25 TO 27,130.0,Model A,1985,760000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,68.0,68,692,57 years 8 months,True,below_lower_iqr_bound
+2016-01,GEYLANG,3 ROOM,32,EUNOS CRES,10 TO 12,60.0,Model A,2007,440000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,90.0,90,956,79 years 8 months,True,above_upper_iqr_bound
+2016-02,ANG MO KIO,3 ROOM,308B,ANG MO KIO AVE 1,10 TO 12,70.0,Model A,2012,455000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1016,84 years 8 months,True,above_upper_iqr_bound
+2016-02,ANG MO KIO,4 ROOM,307A,ANG MO KIO AVE 1,16 TO 18,88.0,Model A,2012,650000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1016,84 years 8 months,True,above_upper_iqr_bound
+2016-02,ANG MO KIO,4 ROOM,310B,ANG MO KIO AVE 1,22 TO 24,96.0,Model A,2012,750000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1016,84 years 8 months,True,above_upper_iqr_bound
+2016-02,BEDOK,4 ROOM,219D,BEDOK CTRL,01 TO 03,97.0,Model A,2010,630000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,992,82 years 8 months,True,above_upper_iqr_bound
+2016-02,BEDOK,4 ROOM,219C,BEDOK CTRL,07 TO 09,97.0,Model A,2010,640000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,992,82 years 8 months,True,above_upper_iqr_bound
+2016-02,BEDOK,4 ROOM,221A,BEDOK CTRL,07 TO 09,94.0,Model A,2010,645000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,992,82 years 8 months,True,above_upper_iqr_bound
+2016-02,JURONG EAST,3 ROOM,35,TEBAN GDNS RD,01 TO 03,77.0,Improved,1977,256000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,60.0,60,596,49 years 8 months,True,below_lower_iqr_bound
+2016-02,PUNGGOL,5 ROOM,133,EDGEDALE PLAINS,01 TO 03,111.0,Premium Apartment,2003,365000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,86.0,86,908,75 years 8 months,True,below_lower_iqr_bound
+2016-02,QUEENSTOWN,5 ROOM,21,QUEEN'S CL,01 TO 03,124.0,Improved,1996,580000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,79.0,79,824,68 years 8 months,True,below_lower_iqr_bound
+2016-02,TAMPINES,5 ROOM,518C,TAMPINES CTRL 7,16 TO 18,108.0,DBSS,2008,705000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,91.0,91,968,80 years 8 months,True,above_upper_iqr_bound
+2016-02,TAMPINES,5 ROOM,518C,TAMPINES CTRL 7,10 TO 12,108.0,DBSS,2008,715000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,91.0,91,968,80 years 8 months,True,above_upper_iqr_bound
+2016-02,TAMPINES,5 ROOM,515D,TAMPINES CTRL 7,16 TO 18,109.0,DBSS,2008,733888.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,91.0,91,968,80 years 8 months,True,above_upper_iqr_bound
+2016-03,BEDOK,4 ROOM,183,BEDOK NTH RD,13 TO 15,92.0,Model A,2005,600000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,88.0,88,932,77 years 8 months,True,above_upper_iqr_bound
+2016-03,BUKIT MERAH,3 ROOM,126C,KIM TIAN RD,37 TO 39,62.0,Model A,2013,608000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1028,85 years 8 months,True,above_upper_iqr_bound
+2016-03,CENTRAL AREA,5 ROOM,2,TG PAGAR PLAZA,07 TO 09,129.0,Adjoined flat,1977,900000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,59.0,59,596,49 years 8 months,True,below_lower_iqr_bound
+2016-03,HOUGANG,5 ROOM,836,HOUGANG CTRL,10 TO 12,116.0,Improved,1997,670000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,80.0,80,836,69 years 8 months,True,above_upper_iqr_bound
+2016-03,TAMPINES,5 ROOM,515C,TAMPINES CTRL 7,07 TO 09,109.0,DBSS,2008,700000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,91.0,91,968,80 years 8 months,True,above_upper_iqr_bound
+2016-03,TAMPINES,5 ROOM,518A,TAMPINES CTRL 7,13 TO 15,109.0,DBSS,2008,738000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,91.0,91,968,80 years 8 months,True,above_upper_iqr_bound
+2016-04,ANG MO KIO,4 ROOM,310C,ANG MO KIO AVE 1,25 TO 27,96.0,Model A,2012,730000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1016,84 years 8 months,True,above_upper_iqr_bound
+2016-04,BEDOK,3 ROOM,220A,BEDOK CTRL,01 TO 03,62.0,Model A,2010,415000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,992,82 years 8 months,True,above_upper_iqr_bound
+2016-04,BEDOK,3 ROOM,219D,BEDOK CTRL,07 TO 09,69.0,Model A,2010,473000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,992,82 years 8 months,True,above_upper_iqr_bound
+2016-04,BEDOK,3 ROOM,219A,BEDOK CTRL,10 TO 12,62.0,Model A,2010,498000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,992,82 years 8 months,True,above_upper_iqr_bound
+2016-04,BUKIT BATOK,4 ROOM,621,BT BATOK CTRL,19 TO 21,90.0,Model A,2003,590000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,86.0,86,908,75 years 8 months,True,above_upper_iqr_bound
+2016-04,CLEMENTI,3 ROOM,441B,CLEMENTI AVE 3,10 TO 12,70.0,Model A,2012,660000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1016,84 years 8 months,True,above_upper_iqr_bound
+2016-04,HOUGANG,5 ROOM,838,HOUGANG CTRL,16 TO 18,116.0,Improved,1997,718000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,79.0,79,836,69 years 8 months,True,above_upper_iqr_bound
+2016-04,TAMPINES,4 ROOM,168C,SIMEI LANE,07 TO 09,94.0,DBSS,2011,580000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,1004,83 years 8 months,True,above_upper_iqr_bound
+2016-04,TAMPINES,4 ROOM,167C,SIMEI LANE,07 TO 09,94.0,DBSS,2011,585000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,1004,83 years 8 months,True,above_upper_iqr_bound
+2016-04,TAMPINES,5 ROOM,168D,SIMEI LANE,04 TO 06,107.0,DBSS,2011,688000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,1004,83 years 8 months,True,above_upper_iqr_bound
+2016-05,ANG MO KIO,4 ROOM,307A,ANG MO KIO AVE 1,13 TO 15,88.0,Model A,2012,668000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1016,84 years 8 months,True,above_upper_iqr_bound
+2016-05,ANG MO KIO,4 ROOM,308A,ANG MO KIO AVE 1,28 TO 30,96.0,Model A,2012,732888.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1016,84 years 8 months,True,above_upper_iqr_bound
+2016-05,BEDOK,4 ROOM,183,BEDOK NTH RD,13 TO 15,92.0,Model A,2005,597000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,88.0,88,932,77 years 8 months,True,above_upper_iqr_bound
+2016-05,BEDOK,4 ROOM,219C,BEDOK CTRL,13 TO 15,94.0,Model A,2010,670888.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,992,82 years 8 months,True,above_upper_iqr_bound
+2016-05,BEDOK,4 ROOM,221B,BEDOK CTRL,13 TO 15,94.0,Model A,2010,678000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,992,82 years 8 months,True,above_upper_iqr_bound
+2016-05,HOUGANG,2 ROOM,986B,BUANGKOK CRES,07 TO 09,47.0,Model A,2012,268000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1016,84 years 8 months,True,above_upper_iqr_bound
+2016-05,HOUGANG,4 ROOM,612,HOUGANG AVE 8,01 TO 03,108.0,Model A,1986,314000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,69.0,69,704,58 years 8 months,True,below_lower_iqr_bound
+2016-05,PUNGGOL,5 ROOM,134,EDGEDALE PLAINS,01 TO 03,111.0,Premium Apartment,2003,375000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,86.0,86,908,75 years 8 months,True,below_lower_iqr_bound
+2016-05,PUNGGOL,5 ROOM,305A,PUNGGOL RD,16 TO 18,147.0,Premium Apartment Loft,2012,788000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1016,84 years 8 months,True,above_upper_iqr_bound
+2016-05,QUEENSTOWN,4 ROOM,87,C'WEALTH CL,04 TO 06,136.0,Adjoined flat,1967,635000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,49.0,49,476,39 years 8 months,True,below_lower_iqr_bound
+2016-05,SENGKANG,3 ROOM,302B,ANCHORVALE LINK,07 TO 09,83.0,Model A,2007,347000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,90.0,90,956,79 years 8 months,True,below_lower_iqr_bound
+2016-05,TAMPINES,4 ROOM,168B,SIMEI LANE,04 TO 06,94.0,DBSS,2011,580000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,1004,83 years 8 months,True,above_upper_iqr_bound
+2016-05,TAMPINES,4 ROOM,167B,SIMEI LANE,04 TO 06,94.0,DBSS,2011,585000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,1004,83 years 8 months,True,above_upper_iqr_bound
+2016-05,TAMPINES,4 ROOM,167B,SIMEI LANE,10 TO 12,94.0,DBSS,2011,601000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,1004,83 years 8 months,True,above_upper_iqr_bound
+2016-05,TAMPINES,4 ROOM,168A,SIMEI LANE,10 TO 12,94.0,DBSS,2011,610088.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,1004,83 years 8 months,True,above_upper_iqr_bound
+2016-05,TAMPINES,5 ROOM,167A,SIMEI LANE,10 TO 12,111.0,DBSS,2011,730000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,1004,83 years 8 months,True,above_upper_iqr_bound
+2016-05,TAMPINES,5 ROOM,167A,SIMEI LANE,10 TO 12,107.0,DBSS,2011,735000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,1004,83 years 8 months,True,above_upper_iqr_bound
+2016-06,ANG MO KIO,3 ROOM,630,ANG MO KIO AVE 4,04 TO 06,82.0,New Generation,1981,293000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,64.0,64,644,53 years 8 months,True,below_lower_iqr_bound
+2016-06,ANG MO KIO,3 ROOM,308A,ANG MO KIO AVE 1,28 TO 30,70.0,Model A,2012,460000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1016,84 years 8 months,True,above_upper_iqr_bound
+2016-06,ANG MO KIO,4 ROOM,307C,ANG MO KIO AVE 1,13 TO 15,88.0,Model A,2012,650000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1016,84 years 8 months,True,above_upper_iqr_bound
+2016-06,BEDOK,4 ROOM,219B,BEDOK CTRL,04 TO 06,97.0,Model A,2010,645000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,992,82 years 8 months,True,above_upper_iqr_bound
+2016-06,BEDOK,4 ROOM,219D,BEDOK CTRL,04 TO 06,94.0,Model A,2010,645000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,992,82 years 8 months,True,above_upper_iqr_bound
+2016-06,BEDOK,4 ROOM,219D,BEDOK CTRL,07 TO 09,94.0,Model A,2010,645000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,992,82 years 8 months,True,above_upper_iqr_bound
+2016-06,BUKIT BATOK,4 ROOM,622,BT BATOK CTRL,07 TO 09,90.0,Model A,2003,565000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,86.0,86,908,75 years 8 months,True,above_upper_iqr_bound
+2016-06,CHOA CHU KANG,4 ROOM,638,CHOA CHU KANG ST 64,10 TO 12,100.0,Premium Apartment,1998,472000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,80.0,80,848,70 years 8 months,True,above_upper_iqr_bound
+2016-06,GEYLANG,3 ROOM,36,EUNOS CRES,07 TO 09,60.0,Model A,2006,440000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,89.0,89,944,78 years 8 months,True,above_upper_iqr_bound
+2016-06,GEYLANG,3 ROOM,33,EUNOS CRES,10 TO 12,60.0,Model A,2007,456000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,89.0,89,956,79 years 8 months,True,above_upper_iqr_bound
+2016-06,HOUGANG,2 ROOM,986A,BUANGKOK CRES,01 TO 03,47.0,Model A,2012,244000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,94.0,94,1016,84 years 8 months,True,below_lower_iqr_bound
+2016-06,KALLANG/WHAMPOA,3 ROOM,59,JLN MA'MOR,01 TO 03,80.0,Terrace,1972,735000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,55.0,55,536,44 years 8 months,True,above_upper_iqr_bound
+2016-06,KALLANG/WHAMPOA,3 ROOM,49,JLN BAHAGIA,01 TO 03,80.0,Terrace,1972,765888.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,55.0,55,536,44 years 8 months,True,above_upper_iqr_bound
+2016-06,MARINE PARADE,3 ROOM,58,MARINE TER,01 TO 03,76.0,Improved,1975,360000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,57.0,57,572,47 years 8 months,True,below_lower_iqr_bound
+2016-06,QUEENSTOWN,5 ROOM,21,QUEEN'S CL,01 TO 03,125.0,Improved,1996,585000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,79.0,79,824,68 years 8 months,True,below_lower_iqr_bound
+2016-06,TAMPINES,4 ROOM,168C,SIMEI LANE,07 TO 09,94.0,DBSS,2011,585000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,1004,83 years 8 months,True,above_upper_iqr_bound
+2016-06,TAMPINES,4 ROOM,168B,SIMEI LANE,07 TO 09,94.0,DBSS,2011,595000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,1004,83 years 8 months,True,above_upper_iqr_bound
+2016-06,TAMPINES,4 ROOM,167D,SIMEI LANE,07 TO 09,94.0,DBSS,2011,613000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,1004,83 years 8 months,True,above_upper_iqr_bound
+2016-06,TAMPINES,5 ROOM,515C,TAMPINES CTRL 7,10 TO 12,108.0,DBSS,2008,690000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,91.0,91,968,80 years 8 months,True,above_upper_iqr_bound
+2016-06,TAMPINES,5 ROOM,515C,TAMPINES CTRL 7,07 TO 09,107.0,DBSS,2008,700000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,91.0,91,968,80 years 8 months,True,above_upper_iqr_bound
+2016-06,TAMPINES,5 ROOM,168D,SIMEI LANE,10 TO 12,111.0,DBSS,2011,720000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,1004,83 years 8 months,True,above_upper_iqr_bound
+2016-06,TAMPINES,5 ROOM,168C,SIMEI LANE,10 TO 12,110.0,DBSS,2011,728000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,1004,83 years 8 months,True,above_upper_iqr_bound
+2016-06,TAMPINES,5 ROOM,515A,TAMPINES CTRL 7,13 TO 15,109.0,DBSS,2008,728888.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,91.0,91,968,80 years 8 months,True,above_upper_iqr_bound
+2016-06,TAMPINES,5 ROOM,168D,SIMEI LANE,07 TO 09,111.0,DBSS,2011,730000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,1004,83 years 8 months,True,above_upper_iqr_bound
+2016-06,TAMPINES,5 ROOM,518C,TAMPINES CTRL 7,16 TO 18,108.0,DBSS,2008,730000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,91.0,91,968,80 years 8 months,True,above_upper_iqr_bound
+2016-06,TAMPINES,5 ROOM,518B,TAMPINES CTRL 7,16 TO 18,109.0,DBSS,2008,748000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,91.0,91,968,80 years 8 months,True,above_upper_iqr_bound
+2016-07,ANG MO KIO,3 ROOM,308B,ANG MO KIO AVE 1,07 TO 09,70.0,Model A,2012,452000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1016,84 years 8 months,True,above_upper_iqr_bound
+2016-07,GEYLANG,3 ROOM,35,EUNOS CRES,16 TO 18,60.0,Model A,2006,460000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,89.0,89,944,78 years 8 months,True,above_upper_iqr_bound
+2016-07,GEYLANG,3 ROOM,33,EUNOS CRES,16 TO 18,60.0,Model A,2007,465000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,89.0,89,956,79 years 8 months,True,above_upper_iqr_bound
+2016-07,PUNGGOL,5 ROOM,133,EDGEDALE PLAINS,04 TO 06,111.0,Premium Apartment,2003,355000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,86.0,86,908,75 years 8 months,True,below_lower_iqr_bound
+2016-07,SENGKANG,3 ROOM,302B,ANCHORVALE LINK,13 TO 15,83.0,Model A,2007,360000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,90.0,90,956,79 years 8 months,True,below_lower_iqr_bound
+2016-07,TAMPINES,4 ROOM,168B,SIMEI LANE,10 TO 12,94.0,DBSS,2011,618388.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,1004,83 years 8 months,True,above_upper_iqr_bound
+2016-08,ANG MO KIO,3 ROOM,308B,ANG MO KIO AVE 1,25 TO 27,70.0,Model A,2012,475000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1016,84 years 8 months,True,above_upper_iqr_bound
+2016-08,ANG MO KIO,4 ROOM,310A,ANG MO KIO AVE 1,22 TO 24,95.0,Model A,2012,725000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1016,84 years 8 months,True,above_upper_iqr_bound
+2016-08,BEDOK,3 ROOM,220A,BEDOK CTRL,01 TO 03,62.0,Model A,2010,388000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,992,82 years 8 months,True,above_upper_iqr_bound
+2016-08,BEDOK,4 ROOM,185,BEDOK NTH RD,10 TO 12,92.0,Model A,2005,600000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,88.0,88,932,77 years 8 months,True,above_upper_iqr_bound
+2016-08,BEDOK,4 ROOM,220A,BEDOK CTRL,04 TO 06,97.0,Model A,2010,650888.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,992,82 years 8 months,True,above_upper_iqr_bound
+2016-08,CLEMENTI,3 ROOM,441B,CLEMENTI AVE 3,22 TO 24,70.0,Model A,2012,680000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,94.0,94,1016,84 years 8 months,True,above_upper_iqr_bound
+2016-08,MARINE PARADE,3 ROOM,34,MARINE CRES,01 TO 03,71.0,Improved,1975,350000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,57.0,57,572,47 years 8 months,True,below_lower_iqr_bound
+2016-08,PUNGGOL,4 ROOM,116,EDGEFIELD PLAINS,01 TO 03,94.0,Premium Apartment,2003,330000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,85.0,85,908,75 years 8 months,True,below_lower_iqr_bound
+2016-08,PUNGGOL,5 ROOM,135,EDGEDALE PLAINS,04 TO 06,111.0,Premium Apartment,2003,370000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,86.0,86,908,75 years 8 months,True,below_lower_iqr_bound
+2016-08,SENGKANG,3 ROOM,302B,ANCHORVALE LINK,01 TO 03,83.0,Model A,2007,335000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,89.0,89,956,79 years 8 months,True,below_lower_iqr_bound
+2016-08,SENGKANG,3 ROOM,302B,ANCHORVALE LINK,10 TO 12,83.0,Model A,2007,345000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,89.0,89,956,79 years 8 months,True,below_lower_iqr_bound
+2016-08,TAMPINES,4 ROOM,168B,SIMEI LANE,10 TO 12,94.0,DBSS,2011,618000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,1004,83 years 8 months,True,above_upper_iqr_bound
+2016-08,TAMPINES,5 ROOM,167C,SIMEI LANE,04 TO 06,107.0,DBSS,2011,735888.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,1004,83 years 8 months,True,above_upper_iqr_bound
+2016-08,TAMPINES,5 ROOM,168B,SIMEI LANE,10 TO 12,110.0,DBSS,2011,738000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,1004,83 years 8 months,True,above_upper_iqr_bound
+2016-09,ANG MO KIO,3 ROOM,308B,ANG MO KIO AVE 1,25 TO 27,70.0,Model A,2012,470000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1016,84 years 8 months,True,above_upper_iqr_bound
+2016-09,ANG MO KIO,3 ROOM,308A,ANG MO KIO AVE 1,10 TO 12,70.0,Model A,2012,495000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1016,84 years 8 months,True,above_upper_iqr_bound
+2016-09,ANG MO KIO,3 ROOM,310C,ANG MO KIO AVE 1,28 TO 30,70.0,Model A,2012,570000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1016,84 years 8 months,True,above_upper_iqr_bound
+2016-09,BEDOK,3 ROOM,219A,BEDOK CTRL,04 TO 06,62.0,Model A,2010,435000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,992,82 years 8 months,True,above_upper_iqr_bound
+2016-09,BEDOK,3 ROOM,219A,BEDOK CTRL,16 TO 18,62.0,Model A,2010,498000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,992,82 years 8 months,True,above_upper_iqr_bound
+2016-09,BEDOK,4 ROOM,183,BEDOK NTH RD,07 TO 09,85.0,Model A,2005,555000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,88.0,88,932,77 years 8 months,True,above_upper_iqr_bound
+2016-09,BEDOK,4 ROOM,219C,BEDOK CTRL,10 TO 12,97.0,Model A,2010,690000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,992,82 years 8 months,True,above_upper_iqr_bound
+2016-09,GEYLANG,3 ROOM,31,EUNOS CRES,04 TO 06,60.0,Model A,2007,438000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,89.0,89,956,79 years 8 months,True,above_upper_iqr_bound
+2016-09,PUNGGOL,5 ROOM,305D,PUNGGOL DR,16 TO 18,147.0,Premium Apartment Loft,2012,780000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,94.0,94,1016,84 years 8 months,True,above_upper_iqr_bound
+2016-09,TAMPINES,4 ROOM,167C,SIMEI LANE,10 TO 12,94.0,DBSS,2011,615000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,1004,83 years 8 months,True,above_upper_iqr_bound
+2016-09,TAMPINES,4 ROOM,168A,SIMEI LANE,10 TO 12,94.0,DBSS,2011,620000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,1004,83 years 8 months,True,above_upper_iqr_bound
+2016-09,TAMPINES,5 ROOM,515B,TAMPINES CTRL 7,13 TO 15,114.0,DBSS,2008,740000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,91.0,91,968,80 years 8 months,True,above_upper_iqr_bound
+2016-10,ANG MO KIO,4 ROOM,310B,ANG MO KIO AVE 1,07 TO 09,87.0,Model A,2012,660000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,94.0,94,1016,84 years 8 months,True,above_upper_iqr_bound
+2016-10,BEDOK,3 ROOM,220A,BEDOK CTRL,04 TO 06,62.0,Model A,2010,414000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,992,82 years 8 months,True,above_upper_iqr_bound
+2016-10,BEDOK,4 ROOM,220B,BEDOK CTRL,13 TO 15,94.0,Model A,2010,610000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,992,82 years 8 months,True,above_upper_iqr_bound
+2016-10,BEDOK,4 ROOM,183,BEDOK NTH RD,16 TO 18,92.0,Model A,2005,635000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,88.0,88,932,77 years 8 months,True,above_upper_iqr_bound
+2016-10,BEDOK,4 ROOM,220C,BEDOK CTRL,13 TO 15,94.0,Model A,2010,688000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,992,82 years 8 months,True,above_upper_iqr_bound
+2016-10,BEDOK,4 ROOM,220B,BEDOK CTRL,07 TO 09,94.0,Model A,2010,693100.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,992,82 years 8 months,True,above_upper_iqr_bound
+2016-10,CENTRAL AREA,5 ROOM,672B,KLANG LANE,07 TO 09,105.0,Improved,2002,650000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,84.0,84,896,74 years 8 months,True,below_lower_iqr_bound
+2016-10,CENTRAL AREA,5 ROOM,632,VEERASAMY RD,22 TO 24,137.0,Model A,1985,770000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,67.0,67,692,57 years 8 months,True,below_lower_iqr_bound
+2016-10,CHOA CHU KANG,4 ROOM,640,CHOA CHU KANG ST 64,16 TO 18,100.0,Premium Apartment,1998,483888.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,80.0,80,848,70 years 8 months,True,above_upper_iqr_bound
+2016-10,PUNGGOL,5 ROOM,114,EDGEFIELD PLAINS,04 TO 06,113.0,Premium Apartment,2003,380000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,85.0,85,908,75 years 8 months,True,below_lower_iqr_bound
+2016-10,PUNGGOL,5 ROOM,267A,PUNGGOL FIELD,10 TO 12,115.0,Premium Apartment,2013,610000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1028,85 years 8 months,True,above_upper_iqr_bound
+2016-10,PUNGGOL,5 ROOM,267B,PUNGGOL FIELD,16 TO 18,115.0,Premium Apartment,2013,620000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1028,85 years 8 months,True,above_upper_iqr_bound
+2016-10,PUNGGOL,5 ROOM,268A,PUNGGOL FIELD,10 TO 12,113.0,Premium Apartment,2013,630000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1028,85 years 8 months,True,above_upper_iqr_bound
+2016-10,QUEENSTOWN,2 ROOM,26,GHIM MOH LINK,16 TO 18,47.0,Model A,2013,368000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1028,85 years 8 months,True,above_upper_iqr_bound
+2016-10,QUEENSTOWN,5 ROOM,18C,HOLLAND DR,37 TO 39,117.0,Improved,2012,430000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,94.0,94,1016,84 years 8 months,True,below_lower_iqr_bound
+2016-10,QUEENSTOWN,5 ROOM,22,DOVER CRES,04 TO 06,133.0,Model A,1993,625000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,75.0,75,788,65 years 8 months,True,below_lower_iqr_bound
+2016-10,SENGKANG,3 ROOM,302B,ANCHORVALE LINK,13 TO 15,83.0,Model A,2007,323000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,89.0,89,956,79 years 8 months,True,below_lower_iqr_bound
+2016-10,TAMPINES,5 ROOM,515C,TAMPINES CTRL 7,13 TO 15,108.0,DBSS,2008,700000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,91.0,91,968,80 years 8 months,True,above_upper_iqr_bound
+2016-10,TAMPINES,5 ROOM,518C,TAMPINES CTRL 7,07 TO 09,108.0,DBSS,2008,703500.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,91.0,91,968,80 years 8 months,True,above_upper_iqr_bound
+2016-10,TAMPINES,5 ROOM,167A,SIMEI LANE,10 TO 12,107.0,DBSS,2011,715000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,1004,83 years 8 months,True,above_upper_iqr_bound
+2016-10,TAMPINES,5 ROOM,168C,SIMEI LANE,10 TO 12,107.0,DBSS,2011,720000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,1004,83 years 8 months,True,above_upper_iqr_bound
+2016-11,ANG MO KIO,4 ROOM,700C,ANG MO KIO AVE 6,16 TO 18,85.0,Model A,2003,625000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,85.0,85,908,75 years 8 months,True,above_upper_iqr_bound
+2016-11,ANG MO KIO,EXECUTIVE,615,ANG MO KIO AVE 4,04 TO 06,152.0,Apartment,1996,630000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,78.0,78,824,68 years 8 months,True,below_lower_iqr_bound
+2016-11,BEDOK,4 ROOM,180,BEDOK NTH RD,07 TO 09,85.0,Model A,2006,555000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,88.0,88,944,78 years 8 months,True,above_upper_iqr_bound
+2016-11,BEDOK,4 ROOM,183,BEDOK NTH RD,10 TO 12,92.0,Model A,2005,615000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,88.0,88,932,77 years 8 months,True,above_upper_iqr_bound
+2016-11,BEDOK,4 ROOM,221B,BEDOK CTRL,01 TO 03,94.0,Model A,2010,636000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,992,82 years 8 months,True,above_upper_iqr_bound
+2016-11,BEDOK,4 ROOM,219D,BEDOK CTRL,10 TO 12,94.0,Model A,2010,688000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,992,82 years 8 months,True,above_upper_iqr_bound
+2016-11,KALLANG/WHAMPOA,3 ROOM,50,JLN BAHAGIA,01 TO 03,89.0,Terrace,1972,833000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,54.0,54,536,44 years 8 months,True,above_upper_iqr_bound
+2016-11,PUNGGOL,5 ROOM,133,EDGEDALE PLAINS,04 TO 06,111.0,Premium Apartment,2003,372888.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,86.0,86,908,75 years 8 months,True,below_lower_iqr_bound
+2016-11,PUNGGOL,5 ROOM,267C,PUNGGOL FIELD,07 TO 09,113.0,Premium Apartment,2013,600000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1028,85 years 8 months,True,above_upper_iqr_bound
+2016-11,PUNGGOL,5 ROOM,270A,PUNGGOL FIELD,10 TO 12,112.0,Premium Apartment,2013,620000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1028,85 years 8 months,True,above_upper_iqr_bound
+2016-11,TAMPINES,5 ROOM,167A,SIMEI LANE,07 TO 09,107.0,DBSS,2011,690000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,1004,83 years 8 months,True,above_upper_iqr_bound
+2016-11,TAMPINES,5 ROOM,515D,TAMPINES CTRL 7,13 TO 15,109.0,DBSS,2008,698000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,91.0,91,968,80 years 8 months,True,above_upper_iqr_bound
+2016-11,TAMPINES,5 ROOM,515C,TAMPINES CTRL 7,10 TO 12,113.0,DBSS,2008,718000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,91.0,91,968,80 years 8 months,True,above_upper_iqr_bound
+2016-11,TAMPINES,5 ROOM,518D,TAMPINES CTRL 7,16 TO 18,109.0,DBSS,2008,760000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,91.0,91,968,80 years 8 months,True,above_upper_iqr_bound
+2016-11,WOODLANDS,4 ROOM,5,MARSILING DR,07 TO 09,90.0,Improved,1974,258000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,56.0,56,560,46 years 8 months,True,below_lower_iqr_bound
+2016-12,ANG MO KIO,4 ROOM,700B,ANG MO KIO AVE 6,13 TO 15,90.0,Model A,2003,670000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,85.0,85,908,75 years 8 months,True,above_upper_iqr_bound
+2016-12,ANG MO KIO,4 ROOM,588D,ANG MO KIO ST 52,22 TO 24,91.0,DBSS,2011,750000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,1004,83 years 8 months,True,above_upper_iqr_bound
+2016-12,ANG MO KIO,4 ROOM,588D,ANG MO KIO ST 52,07 TO 09,91.0,DBSS,2011,695000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,1004,83 years 8 months,True,above_upper_iqr_bound
+2016-12,BEDOK,4 ROOM,221C,BEDOK CTRL,01 TO 03,94.0,Model A,2010,620000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,92.0,92,992,82 years 8 months,True,above_upper_iqr_bound
+2016-12,BEDOK,4 ROOM,182,BEDOK NTH RD,16 TO 18,92.0,Model A,2006,598000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,88.0,88,944,78 years 8 months,True,above_upper_iqr_bound
+2016-12,CHOA CHU KANG,EXECUTIVE,531,CHOA CHU KANG ST 51,01 TO 03,153.0,Apartment,1995,470000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,77.0,77,812,67 years 8 months,True,below_lower_iqr_bound
+2016-12,HOUGANG,5 ROOM,567,HOUGANG ST 51,01 TO 03,121.0,Improved,1997,390000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,79.0,79,836,69 years 8 months,True,below_lower_iqr_bound
+2016-12,JURONG EAST,3 ROOM,40,TEBAN GDNS RD,07 TO 09,74.0,Improved,1978,237000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,60.0,60,608,50 years 8 months,True,below_lower_iqr_bound
+2016-12,MARINE PARADE,3 ROOM,31,MARINE CRES,10 TO 12,65.0,Improved,1975,300000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,57.0,57,572,47 years 8 months,True,below_lower_iqr_bound
+2016-12,PUNGGOL,5 ROOM,134,EDGEDALE PLAINS,13 TO 15,111.0,Premium Apartment,2003,368000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,85.0,85,908,75 years 8 months,True,below_lower_iqr_bound
+2016-12,PUNGGOL,5 ROOM,270C,PUNGGOL FIELD,13 TO 15,116.0,Premium Apartment,2013,652000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1028,85 years 8 months,True,above_upper_iqr_bound
+2016-12,PUNGGOL,5 ROOM,270A,PUNGGOL FIELD,16 TO 18,149.0,Premium Apartment Loft,2013,835000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1028,85 years 8 months,True,above_upper_iqr_bound
+2016-12,PUNGGOL,5 ROOM,270C,PUNGGOL FIELD,07 TO 09,113.0,Premium Apartment,2013,615000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,95.0,95,1028,85 years 8 months,True,above_upper_iqr_bound
+2016-12,SEMBAWANG,4 ROOM,324,SEMBAWANG CL,01 TO 03,101.0,Model A,1999,320000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,81.0,81,860,71 years 8 months,True,below_lower_iqr_bound
+2016-12,TAMPINES,5 ROOM,168C,SIMEI LANE,10 TO 12,107.0,DBSS,2011,728000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,1004,83 years 8 months,True,above_upper_iqr_bound
+2016-12,TAMPINES,5 ROOM,167C,SIMEI LANE,10 TO 12,110.0,DBSS,2011,760000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,93.0,93,1004,83 years 8 months,True,above_upper_iqr_bound
+2016-12,TAMPINES,5 ROOM,518A,TAMPINES CTRL 7,16 TO 18,109.0,DBSS,2008,758000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,91.0,91,968,80 years 8 months,True,above_upper_iqr_bound
+2016-12,WOODLANDS,5 ROOM,682A,WOODLANDS DR 62,01 TO 03,124.0,Premium Apartment,2000,350000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,82.0,82,872,72 years 8 months,True,below_lower_iqr_bound
+2012-03,ANG MO KIO,4 ROOM,596C,ANG MO KIO ST 52,21 TO 25,91.0,Model A,2002,635000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,896,74 years 8 months,True,above_upper_iqr_bound
+2012-03,BEDOK,3 ROOM,57,CHAI CHEE DR,01 TO 05,79.0,Model A,1982,320000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,656,54 years 8 months,True,below_lower_iqr_bound
+2012-03,BUKIT BATOK,4 ROOM,620,BT BATOK CTRL,16 TO 20,90.0,Model A,2003,602000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,908,75 years 8 months,True,above_upper_iqr_bound
+2012-03,BUKIT MERAH,3 ROOM,26D,JLN MEMBINA,26 TO 30,60.0,Model A,2009,525000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,980,81 years 8 months,True,above_upper_iqr_bound
+2012-03,CHOA CHU KANG,3 ROOM,26,TECK WHYE LANE,06 TO 10,89.0,New Generation,1979,332000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,620,51 years 8 months,True,below_lower_iqr_bound
+2012-03,GEYLANG,3 ROOM,36,EUNOS CRES,11 TO 15,60.0,Model A,2006,443888.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,944,78 years 8 months,True,above_upper_iqr_bound
+2012-03,KALLANG/WHAMPOA,3 ROOM,49,JLN BAHAGIA,01 TO 05,80.0,Terrace,1972,688000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,536,44 years 8 months,True,above_upper_iqr_bound
+2012-03,KALLANG/WHAMPOA,3 ROOM,38,JLN BAHAGIA,01 TO 05,83.0,Terrace,1972,698000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,536,44 years 8 months,True,above_upper_iqr_bound
+2012-03,TOA PAYOH,2 ROOM,54,LOR 5 TOA PAYOH,01 TO 05,55.0,Standard,1967,253000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,476,39 years 8 months,True,below_lower_iqr_bound
+2012-04,KALLANG/WHAMPOA,3 ROOM,12,FARRER PK RD,26 TO 30,62.0,Model A,2004,565000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,920,76 years 8 months,True,above_upper_iqr_bound
+2012-05,BEDOK,3 ROOM,55,CHAI CHEE DR,01 TO 05,79.0,Model A,1984,325000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,680,56 years 8 months,True,below_lower_iqr_bound
+2012-05,BUKIT MERAH,3 ROOM,26D,JLN MEMBINA,26 TO 30,60.0,Model A,2009,528000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,980,81 years 8 months,True,above_upper_iqr_bound
+2012-05,GEYLANG,3 ROOM,34,EUNOS CRES,11 TO 15,60.0,Model A,2006,454000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,944,78 years 8 months,True,above_upper_iqr_bound
+2012-05,JURONG EAST,3 ROOM,416,PANDAN GDNS,01 TO 05,74.0,Improved,1982,282000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,656,54 years 8 months,True,below_lower_iqr_bound
+2012-05,JURONG EAST,3 ROOM,410,PANDAN GDNS,01 TO 05,73.0,Improved,1979,285000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,620,51 years 8 months,True,below_lower_iqr_bound
+2012-05,KALLANG/WHAMPOA,3 ROOM,15,FARRER PK RD,26 TO 30,62.0,Model A,2004,503000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,920,76 years 8 months,True,above_upper_iqr_bound
+2012-05,WOODLANDS,4 ROOM,217,MARSILING CRES,01 TO 05,104.0,Model A,1982,348000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,656,54 years 8 months,True,below_lower_iqr_bound
+2012-06,ANG MO KIO,4 ROOM,596B,ANG MO KIO ST 52,22 TO 24,91.0,Model A,2002,638000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,896,74 years 8 months,True,above_upper_iqr_bound
+2012-06,GEYLANG,3 ROOM,93,PAYA LEBAR WAY,04 TO 06,67.0,Improved,1972,275000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,536,44 years 8 months,True,below_lower_iqr_bound
+2012-06,JURONG EAST,3 ROOM,416,PANDAN GDNS,01 TO 03,74.0,Improved,1982,290000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,656,54 years 8 months,True,below_lower_iqr_bound
+2012-06,JURONG WEST,3 ROOM,540,JURONG WEST AVE 1,01 TO 03,94.0,Model A,1984,360000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,680,56 years 8 months,True,below_lower_iqr_bound
+2012-06,KALLANG/WHAMPOA,3 ROOM,46,JLN BAHAGIA,01 TO 03,92.0,Terrace,1972,825000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,536,44 years 8 months,True,above_upper_iqr_bound
+2012-06,QUEENSTOWN,3 ROOM,53,STIRLING RD,01 TO 03,81.0,Terrace,1968,752800.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,488,40 years 8 months,True,above_upper_iqr_bound
+2012-06,WOODLANDS,4 ROOM,202,MARSILING DR,01 TO 03,102.0,New Generation,1981,338000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,644,53 years 8 months,True,below_lower_iqr_bound
+2012-07,BEDOK,3 ROOM,55,CHAI CHEE DR,01 TO 03,80.0,Model A,1984,323000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,680,56 years 8 months,True,below_lower_iqr_bound
+2012-07,BEDOK,4 ROOM,180,BEDOK NTH RD,10 TO 12,85.0,Model A,2006,545000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,944,78 years 8 months,True,above_upper_iqr_bound
+2012-07,BEDOK,4 ROOM,182,BEDOK NTH RD,16 TO 18,92.0,Model A,2006,590000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,944,78 years 8 months,True,above_upper_iqr_bound
+2012-07,BUKIT MERAH,3 ROOM,26D,JLN MEMBINA,28 TO 30,60.0,Model A,2009,528000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,980,81 years 8 months,True,above_upper_iqr_bound
+2012-07,BUKIT TIMAH,4 ROOM,17,TOH YI DR,01 TO 03,104.0,Model A,1988,500000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,728,60 years 8 months,True,below_lower_iqr_bound
+2012-07,GEYLANG,3 ROOM,32,EUNOS CRES,07 TO 09,60.0,Model A,2007,450000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,956,79 years 8 months,True,above_upper_iqr_bound
+2012-07,GEYLANG,3 ROOM,31,EUNOS CRES,16 TO 18,60.0,Model A,2007,460000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,956,79 years 8 months,True,above_upper_iqr_bound
+2012-07,HOUGANG,3 ROOM,247,HOUGANG AVE 3,01 TO 03,82.0,New Generation,1984,336000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,680,56 years 8 months,True,below_lower_iqr_bound
+2012-07,JURONG EAST,3 ROOM,34,TEBAN GDNS RD,01 TO 03,77.0,Improved,1977,287000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,596,49 years 8 months,True,below_lower_iqr_bound
+2012-07,KALLANG/WHAMPOA,2 ROOM,9,JLN BATU,01 TO 03,48.0,Standard,1970,250000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,512,42 years 8 months,True,below_lower_iqr_bound
+2012-07,KALLANG/WHAMPOA,3 ROOM,61,JLN TENTERAM,01 TO 03,94.0,Terrace,1972,810000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,536,44 years 8 months,True,above_upper_iqr_bound
+2012-07,WOODLANDS,4 ROOM,202,MARSILING DR,10 TO 12,102.0,New Generation,1981,345000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,644,53 years 8 months,True,below_lower_iqr_bound
+2012-08,ANG MO KIO,4 ROOM,596A,ANG MO KIO ST 52,25 TO 27,91.0,Model A,2002,655000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,896,74 years 8 months,True,above_upper_iqr_bound
+2012-08,CLEMENTI,5 ROOM,459,CLEMENTI AVE 3,10 TO 12,110.0,Improved,2002,780000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,896,74 years 8 months,True,above_upper_iqr_bound
+2012-08,GEYLANG,3 ROOM,33,EUNOS CRES,01 TO 03,60.0,Model A,2007,438000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,956,79 years 8 months,True,above_upper_iqr_bound
+2012-08,GEYLANG,3 ROOM,33,EUNOS CRES,10 TO 12,60.0,Model A,2007,438000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,956,79 years 8 months,True,above_upper_iqr_bound
+2012-08,HOUGANG,5 ROOM,837,HOUGANG CTRL,16 TO 18,117.0,Improved,1997,710000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,836,69 years 8 months,True,above_upper_iqr_bound
+2012-08,QUEENSTOWN,5 ROOM,81,STRATHMORE AVE,19 TO 21,130.0,Model A,1993,600000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,788,65 years 8 months,True,below_lower_iqr_bound
+2012-09,ANG MO KIO,4 ROOM,596C,ANG MO KIO ST 52,28 TO 30,91.0,Model A,2002,680000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,896,74 years 8 months,True,above_upper_iqr_bound
+2012-09,BEDOK,4 ROOM,221B,BEDOK CTRL,04 TO 06,97.0,Model A,2010,698000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2012-09,BUKIT MERAH,3 ROOM,26C,JLN MEMBINA,22 TO 24,60.0,Model A,2009,529000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,980,81 years 8 months,True,above_upper_iqr_bound
+2012-09,JURONG EAST,3 ROOM,33,TEBAN GDNS RD,01 TO 03,77.0,Improved,1977,290000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,596,49 years 8 months,True,below_lower_iqr_bound
+2012-09,KALLANG/WHAMPOA,3 ROOM,12,FARRER PK RD,19 TO 21,62.0,Model A,2004,498000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,920,76 years 8 months,True,above_upper_iqr_bound
+2012-09,KALLANG/WHAMPOA,3 ROOM,39,JLN BAHAGIA,01 TO 03,83.0,Terrace,1972,780000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,536,44 years 8 months,True,above_upper_iqr_bound
+2012-09,QUEENSTOWN,2 ROOM,35,TANGLIN HALT RD,04 TO 06,46.0,Standard,1973,240000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,548,45 years 8 months,True,below_lower_iqr_bound
+2012-09,QUEENSTOWN,3 ROOM,55,STIRLING RD,01 TO 03,87.0,Terrace,1968,795000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,488,40 years 8 months,True,above_upper_iqr_bound
+2012-09,SENGKANG,3 ROOM,302B,ANCHORVALE LINK,04 TO 06,83.0,Model A,2007,400000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,956,79 years 8 months,True,below_lower_iqr_bound
+2012-10,BEDOK,4 ROOM,182,BEDOK NTH RD,07 TO 09,85.0,Model A,2006,565000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,944,78 years 8 months,True,above_upper_iqr_bound
+2012-10,BEDOK,4 ROOM,182,BEDOK NTH RD,04 TO 06,85.0,Model A,2006,570000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,944,78 years 8 months,True,above_upper_iqr_bound
+2012-10,BEDOK,4 ROOM,181,BEDOK NTH RD,16 TO 18,92.0,Model A,2006,590000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,944,78 years 8 months,True,above_upper_iqr_bound
+2012-10,BEDOK,4 ROOM,185,BEDOK NTH RD,13 TO 15,92.0,Model A,2005,590000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,932,77 years 8 months,True,above_upper_iqr_bound
+2012-10,GEYLANG,3 ROOM,32,EUNOS CRES,04 TO 06,60.0,Model A,2007,463800.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,956,79 years 8 months,True,above_upper_iqr_bound
+2012-10,KALLANG/WHAMPOA,5 ROOM,38,UPP BOON KENG RD,01 TO 03,119.0,Standard,1976,495000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,584,48 years 8 months,True,below_lower_iqr_bound
+2012-10,KALLANG/WHAMPOA,3 ROOM,54,JLN MA'MOR,01 TO 03,103.0,Terrace,1972,852000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,536,44 years 8 months,True,above_upper_iqr_bound
+2012-10,WOODLANDS,4 ROOM,688A,WOODLANDS DR 75,10 TO 12,90.0,Premium Apartment,2004,480000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,920,76 years 8 months,True,above_upper_iqr_bound
+2012-10,YISHUN,4 ROOM,279,YISHUN ST 22,10 TO 12,104.0,Model A,1985,247000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,692,57 years 8 months,True,below_lower_iqr_bound
+2012-11,BEDOK,4 ROOM,182,BEDOK NTH RD,10 TO 12,85.0,Model A,2006,550000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,944,78 years 8 months,True,above_upper_iqr_bound
+2012-11,CLEMENTI,5 ROOM,459,CLEMENTI AVE 3,22 TO 24,110.0,Improved,2002,800000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,896,74 years 8 months,True,above_upper_iqr_bound
+2012-11,KALLANG/WHAMPOA,3 ROOM,56,JLN MA'MOR,01 TO 03,78.0,Terrace,1972,812000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,536,44 years 8 months,True,above_upper_iqr_bound
+2012-11,MARINE PARADE,3 ROOM,34,MARINE CRES,01 TO 03,71.0,Improved,1975,389000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,572,47 years 8 months,True,below_lower_iqr_bound
+2012-11,QUEENSTOWN,3 ROOM,58,STIRLING RD,01 TO 03,79.0,Terrace,1968,775000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,488,40 years 8 months,True,above_upper_iqr_bound
+2012-12,ANG MO KIO,4 ROOM,700B,ANG MO KIO AVE 6,22 TO 24,90.0,Model A,2003,628000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,908,75 years 8 months,True,above_upper_iqr_bound
+2012-12,BEDOK,3 ROOM,219A,BEDOK CTRL,04 TO 06,69.0,Model A,2010,520000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2012-12,BEDOK,4 ROOM,724,BEDOK RESERVOIR RD,01 TO 03,105.0,Model A,1984,405000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,680,56 years 8 months,True,below_lower_iqr_bound
+2012-12,CHOA CHU KANG,4 ROOM,640,CHOA CHU KANG ST 64,07 TO 09,100.0,Premium Apartment,1998,558000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,848,70 years 8 months,True,above_upper_iqr_bound
+2012-12,JURONG WEST,3 ROOM,112,HO CHING RD,07 TO 09,78.0,Improved,1970,300000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,512,42 years 8 months,True,below_lower_iqr_bound
+2012-12,KALLANG/WHAMPOA,3 ROOM,15,FARRER PK RD,25 TO 27,62.0,Model A,2004,493888.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,920,76 years 8 months,True,above_upper_iqr_bound
+2012-12,KALLANG/WHAMPOA,3 ROOM,15,FARRER PK RD,22 TO 24,62.0,Model A,2004,498000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,920,76 years 8 months,True,above_upper_iqr_bound
+2012-12,PASIR RIS,4 ROOM,427,PASIR RIS DR 6,07 TO 09,84.0,Simplified,1988,446000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,728,60 years 8 months,True,above_upper_iqr_bound
+2012-12,TAMPINES,5 ROOM,254,SIMEI ST 1,07 TO 09,118.0,Improved,1996,758000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,824,68 years 8 months,True,above_upper_iqr_bound
+2013-01,CHOA CHU KANG,4 ROOM,641,CHOA CHU KANG ST 64,13 TO 15,100.0,Premium Apartment,1998,574000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,848,70 years 8 months,True,above_upper_iqr_bound
+2013-01,GEYLANG,3 ROOM,33,EUNOS CRES,13 TO 15,60.0,Model A,2007,465000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,956,79 years 8 months,True,above_upper_iqr_bound
+2013-01,GEYLANG,3 ROOM,33,EUNOS CRES,10 TO 12,60.0,Model A,2007,470000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,956,79 years 8 months,True,above_upper_iqr_bound
+2013-01,JURONG EAST,3 ROOM,411,PANDAN GDNS,01 TO 03,86.0,Improved,1979,328000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,620,51 years 8 months,True,below_lower_iqr_bound
+2013-01,KALLANG/WHAMPOA,3 ROOM,12,FARRER PK RD,13 TO 15,62.0,Model A,2004,505000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,920,76 years 8 months,True,above_upper_iqr_bound
+2013-01,SERANGOON,EXECUTIVE,123,SERANGOON NTH AVE 1,01 TO 03,150.0,Maisonette,1985,607000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,692,57 years 8 months,True,below_lower_iqr_bound
+2013-01,TAMPINES,3 ROOM,138,TAMPINES ST 11,01 TO 03,93.0,Model A,1984,416000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,680,56 years 8 months,True,below_lower_iqr_bound
+2013-02,ANG MO KIO,4 ROOM,596C,ANG MO KIO ST 52,22 TO 24,91.0,Model A,2002,710000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,896,74 years 8 months,True,above_upper_iqr_bound
+2013-02,BEDOK,3 ROOM,220A,BEDOK CTRL,10 TO 12,62.0,Model A,2010,468000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2013-02,GEYLANG,3 ROOM,31,EUNOS CRES,16 TO 18,60.0,Model A,2007,485000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,956,79 years 8 months,True,above_upper_iqr_bound
+2013-02,KALLANG/WHAMPOA,3 ROOM,49,JLN BAHAGIA,01 TO 03,80.0,Terrace,1972,735000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,536,44 years 8 months,True,above_upper_iqr_bound
+2013-02,SERANGOON,EXECUTIVE,142,SERANGOON NTH AVE 1,01 TO 03,151.0,Maisonette,1986,575000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,704,58 years 8 months,True,below_lower_iqr_bound
+2013-03,BEDOK,3 ROOM,220A,BEDOK CTRL,10 TO 12,69.0,Model A,2010,515000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2013-03,BEDOK,4 ROOM,183,BEDOK NTH RD,13 TO 15,85.0,Model A,2005,595000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,932,77 years 8 months,True,above_upper_iqr_bound
+2013-03,GEYLANG,3 ROOM,35,EUNOS CRES,04 TO 06,60.0,Model A,2006,460000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,944,78 years 8 months,True,above_upper_iqr_bound
+2013-03,KALLANG/WHAMPOA,3 ROOM,15,FARRER PK RD,19 TO 21,62.0,Model A,2004,500000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,920,76 years 8 months,True,above_upper_iqr_bound
+2013-03,KALLANG/WHAMPOA,EXECUTIVE,11,JLN BATU,01 TO 03,140.0,Apartment,1986,890000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,704,58 years 8 months,True,above_upper_iqr_bound
+2013-03,SENGKANG,3 ROOM,302B,ANCHORVALE LINK,04 TO 06,88.0,Model A,2007,405000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,956,79 years 8 months,True,below_lower_iqr_bound
+2013-03,SERANGOON,EXECUTIVE,418,SERANGOON CTRL,10 TO 12,146.0,Maisonette,1989,888000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,740,61 years 8 months,True,above_upper_iqr_bound
+2013-04,BEDOK,3 ROOM,221C,BEDOK CTRL,16 TO 18,69.0,Model A,2010,520000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2013-04,BUKIT PANJANG,3 ROOM,250,BANGKIT RD,01 TO 03,73.0,Model A,1988,281000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,728,60 years 8 months,True,below_lower_iqr_bound
+2013-04,KALLANG/WHAMPOA,3 ROOM,50,JLN BAHAGIA,01 TO 03,89.0,Terrace,1972,725000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,536,44 years 8 months,True,above_upper_iqr_bound
+2013-04,KALLANG/WHAMPOA,3 ROOM,57,JLN MA'MOR,01 TO 03,92.0,Terrace,1972,851000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,536,44 years 8 months,True,above_upper_iqr_bound
+2013-04,WOODLANDS,EXECUTIVE,141,MARSILING RD,01 TO 03,176.0,Apartment,1995,610000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,812,67 years 8 months,True,below_lower_iqr_bound
+2013-04,WOODLANDS,EXECUTIVE,138,MARSILING RD,04 TO 06,173.0,Apartment,1995,620000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,812,67 years 8 months,True,below_lower_iqr_bound
+2013-05,BEDOK,3 ROOM,220A,BEDOK CTRL,01 TO 03,69.0,Model A,2010,478000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2013-05,BEDOK,4 ROOM,221A,BEDOK CTRL,07 TO 09,97.0,Model A,2010,681000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2013-05,BEDOK,4 ROOM,221A,BEDOK CTRL,07 TO 09,94.0,Model A,2010,705000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2013-05,BUKIT TIMAH,5 ROOM,5,FARRER RD,13 TO 15,123.0,Standard,1974,850000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,560,46 years 8 months,True,above_upper_iqr_bound
+2013-05,CHOA CHU KANG,4 ROOM,640,CHOA CHU KANG ST 64,16 TO 18,100.0,Premium Apartment,1998,578000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,848,70 years 8 months,True,above_upper_iqr_bound
+2013-05,GEYLANG,3 ROOM,34,EUNOS CRES,01 TO 03,60.0,Model A,2006,435000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,944,78 years 8 months,True,above_upper_iqr_bound
+2013-05,GEYLANG,3 ROOM,36,EUNOS CRES,07 TO 09,60.0,Model A,2006,450000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,944,78 years 8 months,True,above_upper_iqr_bound
+2013-05,GEYLANG,3 ROOM,32,EUNOS CRES,19 TO 21,60.0,Model A,2007,455000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,956,79 years 8 months,True,above_upper_iqr_bound
+2013-05,GEYLANG,3 ROOM,31,EUNOS CRES,13 TO 15,60.0,Model A,2007,476000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,956,79 years 8 months,True,above_upper_iqr_bound
+2013-05,SERANGOON,EXECUTIVE,236A,SERANGOON AVE 2,16 TO 18,140.0,Apartment,1998,850000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,848,70 years 8 months,True,above_upper_iqr_bound
+2013-05,SERANGOON,EXECUTIVE,322,SERANGOON AVE 3,07 TO 09,141.0,Apartment,1986,930000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,704,58 years 8 months,True,above_upper_iqr_bound
+2013-06,QUEENSTOWN,4 ROOM,21,QUEEN'S CL,01 TO 03,108.0,Model A,1996,570000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,824,68 years 8 months,True,below_lower_iqr_bound
+2013-06,SEMBAWANG,EXECUTIVE,467A,ADMIRALTY DR,07 TO 09,137.0,Premium Apartment,2001,520000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,884,73 years 8 months,True,below_lower_iqr_bound
+2013-07,BEDOK,3 ROOM,55,CHAI CHEE DR,04 TO 06,90.0,Model A,1984,380000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,680,56 years 8 months,True,below_lower_iqr_bound
+2013-07,BEDOK,4 ROOM,220C,BEDOK CTRL,04 TO 06,87.0,Model A,2010,660000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2013-07,BEDOK,4 ROOM,220C,BEDOK CTRL,04 TO 06,97.0,Model A,2010,688000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2013-07,BUKIT MERAH,3 ROOM,26A,JLN MEMBINA,25 TO 27,60.0,Model A,2008,572000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,968,80 years 8 months,True,above_upper_iqr_bound
+2013-07,GEYLANG,3 ROOM,36,EUNOS CRES,13 TO 15,60.0,Model A,2006,470000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,944,78 years 8 months,True,above_upper_iqr_bound
+2013-07,SERANGOON,EXECUTIVE,148,SERANGOON NTH AVE 1,01 TO 03,146.0,Maisonette,1987,575000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,716,59 years 8 months,True,below_lower_iqr_bound
+2013-07,TAMPINES,3 ROOM,139,TAMPINES ST 11,01 TO 03,93.0,Model A,1984,395000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,680,56 years 8 months,True,below_lower_iqr_bound
+2013-07,WOODLANDS,3 ROOM,202,MARSILING DR,01 TO 03,82.0,New Generation,1981,320000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,644,53 years 8 months,True,below_lower_iqr_bound
+2013-07,WOODLANDS,5 ROOM,139,MARSILING RD,01 TO 03,134.0,Model A,1995,410000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,812,67 years 8 months,True,below_lower_iqr_bound
+2013-08,ANG MO KIO,3 ROOM,422,ANG MO KIO AVE 3,10 TO 12,73.0,New Generation,1979,300000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,620,51 years 8 months,True,below_lower_iqr_bound
+2013-08,ANG MO KIO,4 ROOM,596C,ANG MO KIO ST 52,22 TO 24,90.0,Model A,2002,680000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,896,74 years 8 months,True,above_upper_iqr_bound
+2013-08,BEDOK,4 ROOM,219C,BEDOK CTRL,10 TO 12,94.0,Model A,2010,670000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2013-08,BEDOK,4 ROOM,219D,BEDOK CTRL,13 TO 15,94.0,Model A,2010,690000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2013-08,BEDOK,4 ROOM,220B,BEDOK CTRL,16 TO 18,94.0,Model A,2010,699000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2013-08,BEDOK,4 ROOM,219D,BEDOK CTRL,13 TO 15,97.0,Model A,2010,702000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2013-08,BUKIT MERAH,3 ROOM,26A,JLN MEMBINA,22 TO 24,60.0,Model A,2008,575000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,968,80 years 8 months,True,above_upper_iqr_bound
+2013-08,HOUGANG,3 ROOM,19,HOUGANG AVE 3,04 TO 06,88.0,New Generation,1978,388888.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,608,50 years 8 months,True,below_lower_iqr_bound
+2013-08,TAMPINES,3 ROOM,138,TAMPINES ST 11,01 TO 03,94.0,Model A,1984,410000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,680,56 years 8 months,True,below_lower_iqr_bound
+2013-08,WOODLANDS,3 ROOM,24,MARSILING DR,04 TO 06,82.0,New Generation,1977,330000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,596,49 years 8 months,True,below_lower_iqr_bound
+2013-08,YISHUN,MULTI-GENERATION,605,YISHUN ST 61,10 TO 12,147.0,Multi Generation,1988,753888.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,728,60 years 8 months,True,above_upper_iqr_bound
+2013-09,BEDOK,3 ROOM,221C,BEDOK CTRL,07 TO 09,69.0,Model A,2010,500000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2013-09,BEDOK,4 ROOM,220C,BEDOK CTRL,10 TO 12,94.0,Model A,2010,668000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2013-09,BEDOK,4 ROOM,219C,BEDOK CTRL,10 TO 12,97.0,Model A,2010,680000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2013-09,BUKIT BATOK,4 ROOM,621,BT BATOK CTRL,28 TO 30,90.0,Model A,2003,708000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,908,75 years 8 months,True,above_upper_iqr_bound
+2013-09,BUKIT MERAH,3 ROOM,26A,JLN MEMBINA,22 TO 24,60.0,Model A,2008,570000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,968,80 years 8 months,True,above_upper_iqr_bound
+2013-09,BUKIT MERAH,3 ROOM,22,TIONG BAHRU RD,01 TO 03,75.0,Standard,1973,690000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,548,45 years 8 months,True,above_upper_iqr_bound
+2013-09,GEYLANG,3 ROOM,31,EUNOS CRES,19 TO 21,60.0,Model A,2007,495000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,956,79 years 8 months,True,above_upper_iqr_bound
+2013-09,QUEENSTOWN,3 ROOM,89,TANGLIN HALT RD,22 TO 24,60.0,Model A,2008,563000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,968,80 years 8 months,True,above_upper_iqr_bound
+2013-09,QUEENSTOWN,3 ROOM,89,TANGLIN HALT RD,25 TO 27,60.0,Model A,2008,563000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,968,80 years 8 months,True,above_upper_iqr_bound
+2013-09,SERANGOON,EXECUTIVE,232A,SERANGOON AVE 2,04 TO 06,140.0,Apartment,1998,859000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,848,70 years 8 months,True,above_upper_iqr_bound
+2013-09,SERANGOON,EXECUTIVE,417,SERANGOON CTRL,10 TO 12,146.0,Maisonette,1989,925000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,740,61 years 8 months,True,above_upper_iqr_bound
+2013-09,TAMPINES,3 ROOM,281,TAMPINES ST 22,01 TO 03,84.0,Model A,1984,376000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,680,56 years 8 months,True,below_lower_iqr_bound
+2013-09,WOODLANDS,3 ROOM,23,MARSILING DR,01 TO 03,82.0,New Generation,1977,325000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,596,49 years 8 months,True,below_lower_iqr_bound
+2013-09,WOODLANDS,EXECUTIVE,117,MARSILING RISE,01 TO 03,170.0,Apartment,1995,590000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,812,67 years 8 months,True,below_lower_iqr_bound
+2013-10,ANG MO KIO,4 ROOM,596D,ANG MO KIO ST 52,10 TO 12,90.0,Model A,2003,662000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,908,75 years 8 months,True,above_upper_iqr_bound
+2013-10,ANG MO KIO,4 ROOM,700A,ANG MO KIO AVE 6,19 TO 21,91.0,Model A,2003,672000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,908,75 years 8 months,True,above_upper_iqr_bound
+2013-10,BEDOK,3 ROOM,221B,BEDOK CTRL,10 TO 12,69.0,Model A,2010,500000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2013-10,BEDOK,4 ROOM,180,BEDOK NTH RD,04 TO 06,85.0,Model A,2006,575000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,944,78 years 8 months,True,above_upper_iqr_bound
+2013-10,BEDOK,4 ROOM,219A,BEDOK CTRL,10 TO 12,97.0,Model A,2010,680000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2013-10,BUKIT BATOK,4 ROOM,622,BT BATOK CTRL,10 TO 12,90.0,Model A,2003,610000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,908,75 years 8 months,True,above_upper_iqr_bound
+2013-10,BUKIT BATOK,4 ROOM,621,BT BATOK CTRL,28 TO 30,90.0,Model A,2003,655000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,908,75 years 8 months,True,above_upper_iqr_bound
+2013-10,BUKIT MERAH,3 ROOM,26C,JLN MEMBINA,22 TO 24,60.0,Model A,2009,550000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,980,81 years 8 months,True,above_upper_iqr_bound
+2013-10,JURONG EAST,3 ROOM,416,PANDAN GDNS,01 TO 03,74.0,Improved,1982,293000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,656,54 years 8 months,True,below_lower_iqr_bound
+2013-10,JURONG EAST,3 ROOM,411,PANDAN GDNS,04 TO 06,86.0,Improved,1979,339000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,620,51 years 8 months,True,below_lower_iqr_bound
+2013-10,SERANGOON,EXECUTIVE,322,SERANGOON AVE 3,04 TO 06,150.0,Apartment,1986,890000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,704,58 years 8 months,True,above_upper_iqr_bound
+2013-10,WOODLANDS,3 ROOM,23,MARSILING DR,04 TO 06,82.0,New Generation,1977,318000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,596,49 years 8 months,True,below_lower_iqr_bound
+2013-10,YISHUN,MULTI-GENERATION,633,YISHUN ST 61,10 TO 12,164.0,Multi Generation,1987,703000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,716,59 years 8 months,True,below_lower_iqr_bound
+2013-11,BISHAN,4 ROOM,448,BRIGHT HILL DR,04 TO 06,109.0,Model A,1990,434000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,752,62 years 8 months,True,below_lower_iqr_bound
+2013-11,GEYLANG,3 ROOM,36,EUNOS CRES,07 TO 09,60.0,Model A,2006,465000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,944,78 years 8 months,True,above_upper_iqr_bound
+2013-11,PUNGGOL,EXECUTIVE,111,EDGEFIELD PLAINS,01 TO 03,130.0,Premium Apartment,2003,540000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,908,75 years 8 months,True,below_lower_iqr_bound
+2013-11,QUEENSTOWN,3 ROOM,89,TANGLIN HALT RD,40 TO 42,60.0,Model A,2008,580000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,968,80 years 8 months,True,above_upper_iqr_bound
+2013-11,SENGKANG,3 ROOM,302B,ANCHORVALE LINK,07 TO 09,88.0,Model A,2007,394000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,956,79 years 8 months,True,below_lower_iqr_bound
+2013-11,SERANGOON,EXECUTIVE,236A,SERANGOON AVE 2,16 TO 18,141.0,Apartment,1998,870000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,848,70 years 8 months,True,above_upper_iqr_bound
+2013-11,TOA PAYOH,3 ROOM,118,POTONG PASIR AVE 1,01 TO 03,73.0,New Generation,1984,302000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,680,56 years 8 months,True,below_lower_iqr_bound
+2013-12,BEDOK,4 ROOM,219C,BEDOK CTRL,10 TO 12,94.0,Model A,2010,675000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2013-12,HOUGANG,4 ROOM,239,HOUGANG ST 22,04 TO 06,104.0,Model A,1984,385000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,680,56 years 8 months,True,below_lower_iqr_bound
+2013-12,KALLANG/WHAMPOA,3 ROOM,12,FARRER PK RD,22 TO 24,62.0,Model A,2004,538888.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,920,76 years 8 months,True,above_upper_iqr_bound
+2013-12,SEMBAWANG,EXECUTIVE,468B,ADMIRALTY DR,01 TO 03,137.0,Premium Apartment,2001,522000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,884,73 years 8 months,True,below_lower_iqr_bound
+2013-12,SENGKANG,2 ROOM,302B,ANCHORVALE LINK,07 TO 09,45.0,Model A,2007,245000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,956,79 years 8 months,True,below_lower_iqr_bound
+2014-01,BEDOK,3 ROOM,221C,BEDOK CTRL,10 TO 12,69.0,Model A,2010,467000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2014-01,BEDOK,3 ROOM,221B,BEDOK CTRL,07 TO 09,69.0,Model A,2010,485000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2014-01,BEDOK,3 ROOM,219A,BEDOK CTRL,16 TO 18,69.0,Model A,2010,498000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2014-01,BEDOK,4 ROOM,220B,BEDOK CTRL,01 TO 03,94.0,Model A,2010,640000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2014-01,HOUGANG,5 ROOM,837,HOUGANG CTRL,10 TO 12,118.0,Improved,1997,688888.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,836,69 years 8 months,True,above_upper_iqr_bound
+2014-02,BEDOK,4 ROOM,221C,BEDOK CTRL,04 TO 06,94.0,Model A,2010,652000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2014-02,BEDOK,4 ROOM,221A,BEDOK CTRL,10 TO 12,97.0,Model A,2010,675000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2014-02,CHOA CHU KANG,4 ROOM,639,CHOA CHU KANG ST 64,04 TO 06,100.0,Premium Apartment,1998,510000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,848,70 years 8 months,True,above_upper_iqr_bound
+2014-02,CLEMENTI,4 ROOM,611,CLEMENTI WEST ST 1,01 TO 03,105.0,Model A,1983,395000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,668,55 years 8 months,True,below_lower_iqr_bound
+2014-02,KALLANG/WHAMPOA,5 ROOM,3D,UPP BOON KENG RD,22 TO 24,110.0,Improved,2006,885000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,944,78 years 8 months,True,above_upper_iqr_bound
+2014-02,PASIR RIS,3 ROOM,4,CHANGI VILLAGE RD,01 TO 03,66.0,Improved,1980,275000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,632,52 years 8 months,True,below_lower_iqr_bound
+2014-03,BEDOK,3 ROOM,219A,BEDOK CTRL,07 TO 09,69.0,Model A,2010,457000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2014-03,BEDOK,4 ROOM,221C,BEDOK CTRL,04 TO 06,94.0,Model A,2010,630000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2014-03,BEDOK,4 ROOM,221A,BEDOK CTRL,04 TO 06,87.0,Model A,2010,643000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2014-03,BEDOK,4 ROOM,220B,BEDOK CTRL,07 TO 09,87.0,Model A,2010,655000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2014-03,BEDOK,4 ROOM,219B,BEDOK CTRL,13 TO 15,97.0,Model A,2010,690000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2014-03,GEYLANG,3 ROOM,32,EUNOS CRES,01 TO 03,60.0,Model A,2007,430000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,956,79 years 8 months,True,above_upper_iqr_bound
+2014-03,GEYLANG,3 ROOM,34,EUNOS CRES,13 TO 15,60.0,Model A,2006,460000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,944,78 years 8 months,True,above_upper_iqr_bound
+2014-03,KALLANG/WHAMPOA,3 ROOM,41,JLN BAHAGIA,01 TO 03,92.0,Terrace,1972,835000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,536,44 years 8 months,True,above_upper_iqr_bound
+2014-04,BEDOK,3 ROOM,220A,BEDOK CTRL,07 TO 09,62.0,Model A,2010,440000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2014-04,GEYLANG,3 ROOM,31,EUNOS CRES,16 TO 18,60.0,Model A,2007,455000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,956,79 years 8 months,True,above_upper_iqr_bound
+2014-04,GEYLANG,3 ROOM,34,EUNOS CRES,10 TO 12,60.0,Model A,2006,463000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,944,78 years 8 months,True,above_upper_iqr_bound
+2014-04,QUEENSTOWN,4 ROOM,43,TANGLIN HALT RD,04 TO 06,129.0,Adjoined flat,1971,605000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,524,43 years 8 months,True,below_lower_iqr_bound
+2014-05,BEDOK,4 ROOM,219C,BEDOK CTRL,13 TO 15,87.0,Model A,2010,652000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2014-05,BEDOK,4 ROOM,219C,BEDOK CTRL,04 TO 06,94.0,Model A,2010,663000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2014-05,CHOA CHU KANG,4 ROOM,112,TECK WHYE LANE,01 TO 03,106.0,Model A,1989,330000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,740,61 years 8 months,True,below_lower_iqr_bound
+2014-05,CHOA CHU KANG,EXECUTIVE,101,TECK WHYE LANE,01 TO 03,142.0,Apartment,1989,490000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,740,61 years 8 months,True,below_lower_iqr_bound
+2014-05,TAMPINES,4 ROOM,515A,TAMPINES CTRL 7,13 TO 15,92.0,DBSS,2008,590000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,968,80 years 8 months,True,above_upper_iqr_bound
+2014-06,BEDOK,3 ROOM,219D,BEDOK CTRL,04 TO 06,69.0,Model A,2010,465000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2014-06,BEDOK,4 ROOM,220B,BEDOK CTRL,04 TO 06,87.0,Model A,2010,616000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2014-06,BEDOK,4 ROOM,221C,BEDOK CTRL,10 TO 12,94.0,Model A,2010,628000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2014-06,BEDOK,4 ROOM,221A,BEDOK CTRL,10 TO 12,87.0,Model A,2010,648888.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2014-06,BEDOK,4 ROOM,221B,BEDOK CTRL,04 TO 06,97.0,Model A,2010,670000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2014-06,BEDOK,4 ROOM,220B,BEDOK CTRL,13 TO 15,97.0,Model A,2010,690000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2014-06,BUKIT MERAH,3 ROOM,26C,JLN MEMBINA,22 TO 24,60.0,Model A,2009,540000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,980,81 years 8 months,True,above_upper_iqr_bound
+2014-06,GEYLANG,3 ROOM,33,EUNOS CRES,07 TO 09,60.0,Model A,2007,462000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,956,79 years 8 months,True,above_upper_iqr_bound
+2014-06,JURONG WEST,3 ROOM,113,TAO CHING RD,07 TO 09,76.0,Improved,1971,280000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,524,43 years 8 months,True,below_lower_iqr_bound
+2014-06,KALLANG/WHAMPOA,3 ROOM,48,JLN BAHAGIA,01 TO 03,78.0,Terrace,1972,708000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,536,44 years 8 months,True,above_upper_iqr_bound
+2014-06,KALLANG/WHAMPOA,3 ROOM,54,JLN MA'MOR,01 TO 03,88.0,Terrace,1972,755000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,536,44 years 8 months,True,above_upper_iqr_bound
+2014-07,BEDOK,3 ROOM,220A,BEDOK CTRL,10 TO 12,69.0,Model A,2010,453000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2014-07,BEDOK,3 ROOM,221B,BEDOK CTRL,16 TO 18,69.0,Model A,2010,500000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2014-07,BEDOK,4 ROOM,221A,BEDOK CTRL,07 TO 09,87.0,Model A,2010,648000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2014-07,BISHAN,EXECUTIVE,454,SIN MING AVE,10 TO 12,186.0,Maisonette,1989,845000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,740,61 years 8 months,True,below_lower_iqr_bound
+2014-07,BUKIT BATOK,4 ROOM,622,BT BATOK CTRL,22 TO 24,90.0,Model A,2003,615000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,908,75 years 8 months,True,above_upper_iqr_bound
+2014-07,GEYLANG,2 ROOM,83,MACPHERSON LANE,01 TO 03,50.0,Standard,1968,230000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,488,40 years 8 months,True,below_lower_iqr_bound
+2014-07,GEYLANG,3 ROOM,33,EUNOS CRES,16 TO 18,60.0,Model A,2007,470000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,956,79 years 8 months,True,above_upper_iqr_bound
+2014-07,HOUGANG,3 ROOM,703,HOUGANG AVE 2,01 TO 03,82.0,New Generation,1986,310000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,704,58 years 8 months,True,below_lower_iqr_bound
+2014-07,KALLANG/WHAMPOA,3 ROOM,60,JLN BAHAGIA,01 TO 03,103.0,Terrace,1972,850000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,536,44 years 8 months,True,above_upper_iqr_bound
+2014-07,TAMPINES,EXECUTIVE,428,TAMPINES ST 41,01 TO 03,148.0,Maisonette,1986,548000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,704,58 years 8 months,True,below_lower_iqr_bound
+2014-08,ANG MO KIO,3 ROOM,180,ANG MO KIO AVE 5,01 TO 03,82.0,New Generation,1981,320000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,644,53 years 8 months,True,below_lower_iqr_bound
+2014-08,BEDOK,3 ROOM,219D,BEDOK CTRL,07 TO 09,69.0,Model A,2010,458000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2014-08,BEDOK,4 ROOM,219C,BEDOK CTRL,07 TO 09,94.0,Model A,2010,663000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2014-08,BUKIT BATOK,4 ROOM,621,BT BATOK CTRL,25 TO 27,90.0,Model A,2003,625000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,908,75 years 8 months,True,above_upper_iqr_bound
+2014-08,CHOA CHU KANG,4 ROOM,639,CHOA CHU KANG ST 64,07 TO 09,100.0,Premium Apartment,1998,501888.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,848,70 years 8 months,True,above_upper_iqr_bound
+2014-08,GEYLANG,3 ROOM,32,EUNOS CRES,07 TO 09,60.0,Model A,2007,450000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,956,79 years 8 months,True,above_upper_iqr_bound
+2014-09,BEDOK,3 ROOM,221B,BEDOK CTRL,01 TO 03,69.0,Model A,2010,465000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2014-09,BEDOK,3 ROOM,220A,BEDOK CTRL,10 TO 12,69.0,Model A,2010,488000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2014-09,BEDOK,4 ROOM,182,BEDOK NTH RD,19 TO 21,85.0,Model A,2006,568000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,944,78 years 8 months,True,above_upper_iqr_bound
+2014-09,BEDOK,4 ROOM,220C,BEDOK CTRL,13 TO 15,94.0,Model A,2010,694000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2014-09,CHOA CHU KANG,EXECUTIVE,275,CHOA CHU KANG AVE 2,10 TO 12,147.0,Apartment,1993,499000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,788,65 years 8 months,True,below_lower_iqr_bound
+2014-09,GEYLANG,3 ROOM,31,EUNOS CRES,07 TO 09,60.0,Model A,2007,452000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,956,79 years 8 months,True,above_upper_iqr_bound
+2014-09,GEYLANG,3 ROOM,34,EUNOS CRES,16 TO 18,60.0,Model A,2006,475000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,944,78 years 8 months,True,above_upper_iqr_bound
+2014-09,JURONG WEST,3 ROOM,519,JURONG WEST ST 52,01 TO 03,90.0,Model A,1983,333000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,668,55 years 8 months,True,below_lower_iqr_bound
+2014-09,SENGKANG,5 ROOM,144,RIVERVALE DR,01 TO 03,122.0,Improved,1999,405000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,860,71 years 8 months,True,below_lower_iqr_bound
+2014-09,WOODLANDS,4 ROOM,872,WOODLANDS ST 81,01 TO 03,108.0,Model A,1996,340000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,824,68 years 8 months,True,below_lower_iqr_bound
+2014-09,YISHUN,3 ROOM,286,YISHUN AVE 6,07 TO 09,74.0,Model A,1987,260000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,716,59 years 8 months,True,below_lower_iqr_bound
+2014-09,YISHUN,3 ROOM,106,YISHUN RING RD,01 TO 03,82.0,New Generation,1978,290000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,608,50 years 8 months,True,below_lower_iqr_bound
+2014-10,ANG MO KIO,4 ROOM,596B,ANG MO KIO ST 52,28 TO 30,90.0,Model A,2002,630000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,896,74 years 8 months,True,above_upper_iqr_bound
+2014-10,ANG MO KIO,EXECUTIVE,608,ANG MO KIO AVE 5,04 TO 06,178.0,Adjoined flat,1980,850000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,632,52 years 8 months,True,below_lower_iqr_bound
+2014-10,BEDOK,4 ROOM,220B,BEDOK CTRL,13 TO 15,97.0,Model A,2010,675000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2014-10,BUKIT MERAH,3 ROOM,13,CANTONMENT CL,19 TO 21,60.0,Model A,2003,532000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,908,75 years 8 months,True,above_upper_iqr_bound
+2014-10,TOA PAYOH,3 ROOM,115,POTONG PASIR AVE 1,01 TO 03,73.0,New Generation,1984,265000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,680,56 years 8 months,True,below_lower_iqr_bound
+2014-11,ANG MO KIO,3 ROOM,417,ANG MO KIO AVE 10,01 TO 03,74.0,New Generation,1979,288000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,620,51 years 8 months,True,below_lower_iqr_bound
+2014-11,BUKIT MERAH,3 ROOM,26C,JLN MEMBINA,25 TO 27,60.0,Model A,2009,550000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,980,81 years 8 months,True,above_upper_iqr_bound
+2014-11,GEYLANG,3 ROOM,31,EUNOS CRES,19 TO 21,60.0,Model A,2007,440000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,956,79 years 8 months,True,above_upper_iqr_bound
+2014-11,GEYLANG,3 ROOM,33,EUNOS CRES,10 TO 12,60.0,Model A,2007,462500.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,956,79 years 8 months,True,above_upper_iqr_bound
+2014-11,HOUGANG,3 ROOM,242,HOUGANG ST 22,07 TO 09,71.0,New Generation,1984,270000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,680,56 years 8 months,True,below_lower_iqr_bound
+2014-11,HOUGANG,3 ROOM,702,HOUGANG AVE 2,10 TO 12,82.0,New Generation,1985,305000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,692,57 years 8 months,True,below_lower_iqr_bound
+2014-11,TAMPINES,3 ROOM,826,TAMPINES ST 81,01 TO 03,83.0,New Generation,1987,305000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,716,59 years 8 months,True,below_lower_iqr_bound
+2014-12,ANG MO KIO,3 ROOM,632,ANG MO KIO AVE 4,01 TO 03,82.0,New Generation,1981,315000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,644,53 years 8 months,True,below_lower_iqr_bound
+2014-12,BEDOK,4 ROOM,219A,BEDOK CTRL,10 TO 12,97.0,Model A,2010,675888.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,992,82 years 8 months,True,above_upper_iqr_bound
+2014-12,CHOA CHU KANG,3 ROOM,26,TECK WHYE LANE,04 TO 06,89.0,New Generation,1979,308000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,620,51 years 8 months,True,below_lower_iqr_bound
+2014-12,CHOA CHU KANG,3 ROOM,26,TECK WHYE LANE,10 TO 12,89.0,New Generation,1979,305000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,620,51 years 8 months,True,below_lower_iqr_bound
+2014-12,JURONG WEST,3 ROOM,530,JURONG WEST ST 52,04 TO 06,82.0,New Generation,1983,300000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,668,55 years 8 months,True,below_lower_iqr_bound
+2014-12,SEMBAWANG,4 ROOM,303,CANBERRA RD,01 TO 03,100.0,Model A,1998,340000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,848,70 years 8 months,True,below_lower_iqr_bound
+2014-12,SENGKANG,EXECUTIVE,189C,RIVERVALE DR,01 TO 03,130.0,Apartment,2000,480000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,872,72 years 8 months,True,below_lower_iqr_bound
+2014-12,TAMPINES,EXECUTIVE,430,TAMPINES ST 41,01 TO 03,148.0,Maisonette,1986,580000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,704,58 years 8 months,True,below_lower_iqr_bound
+2014-12,TAMPINES,EXECUTIVE,495C,TAMPINES ST 43,01 TO 03,147.0,Apartment,1994,580000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,800,66 years 8 months,True,below_lower_iqr_bound
