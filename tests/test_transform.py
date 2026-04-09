@@ -17,6 +17,7 @@ import pytest
 from src.transform import (
     add_hashed_identifier,
     build_resale_identifier,
+    collision_report,
     dedupe_by_identifier,
     hash_identifier,
 )
@@ -163,6 +164,30 @@ def test_dedupe_no_collisions_returns_empty_discarded():
     assert len(discarded) == 0
     # Shape-compatible: the failure_reason column is still present.
     assert "failure_reason" in discarded.columns
+
+
+# ---------------------------------------------------------------------------
+# Collision report
+# ---------------------------------------------------------------------------
+
+
+def test_collision_report_counts_and_spread():
+    df = pd.DataFrame(
+        {
+            "resale_identifier": ["S0000001A", "S0000001A", "S0000001A", "S0000002B"],
+            "resale_price": [300_000.0, 500_000.0, 400_000.0, 250_000.0],
+        }
+    )
+    out = collision_report(df, top_n=5)
+    assert out["n_total"] == 4
+    assert out["n_distinct"] == 2
+    assert out["n_collided_ids"] == 1
+    assert out["n_rows_in_collisions"] == 3
+
+    top = out["top_collisions"]
+    collided = top.loc["S0000001A"]
+    assert collided["rows"] == 3
+    assert collided["price_spread"] == 200_000.0
 
 
 # ---------------------------------------------------------------------------
