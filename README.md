@@ -484,8 +484,6 @@ boring, correct choice.
 
 ## Known limitations
 
-- The 2017+ vintage uses an `"X years Y months"` string format for
-  `remaining_lease` which is intentionally not parsed (out of scope).
 - Recomputed lease assumes a January-1 lease start, since the source
   `lease_commence_date` is a year, not a calendar date.
 - The price-anomaly heuristic is unsupervised. It does not distinguish
