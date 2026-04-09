@@ -2,16 +2,16 @@
 name = "hdb-resale-etl"
 version = "0.1.0"
 description = "HDB Resale Flat Prices ETL Pipeline (Part 1)"
-requires-python = ">=3.10"
+requires-python = ">=3.10,<3.13"
 dependencies = [
-    "pandas>=2.0",
-    "requests>=2.31",
-    "pyarrow>=14.0",
-    "jupyter>=1.0",
+    "pandas>=2.0,<4",
+    "requests>=2.31,<3",
+    "pyarrow>=14.0,<24",
+    "jupyter>=1.0,<2",
 ]
 
 [project.optional-dependencies]
-dev = ["pytest>=7.0"]
+dev = ["pytest>=7.0,<9"]
 
 [build-system]
 requires = ["setuptools>=68"]

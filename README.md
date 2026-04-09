@@ -8,24 +8,45 @@ This is **Part 1** of the HDB Senior Data Engineer technical test. It covers
 ingestion through the Cleaned dataset. Resale Identifier generation, hashing,
 and the Transformed/Hashed outputs will be added in a later pass.
 
-## Setup
+## Quickstart
+
+Tested on **Python 3.12** (any 3.10–3.12 should work; 3.13 is not yet
+supported by the pinned dependency set). From the repo root:
 
 ```bash
-python -m venv .venv
+python3.12 -m venv .venv
 source .venv/bin/activate
 pip install -e ".[dev]"
+jupyter notebook notebook/hdb_etl.ipynb
 ```
 
-## Run
+Then **Kernel → Restart Kernel and Run All Cells**. Cell 0 (Setup) prints
+the resolved Python and dependency versions and will fail loudly if any
+import is missing, so a misconfigured env surfaces immediately rather than
+mid-pipeline.
 
-Open and execute `notebook/hdb_etl.ipynb` top to bottom. On a fresh clone
-the raw CSVs are already present in `data/raw/`, so the pipeline runs without
-network access.
+On a fresh clone the raw CSVs are already present in `data/raw/`, so the
+pipeline runs end-to-end **without network access**. The download path is
+still exercised on each run and is idempotent (files matching the API's
+`datasetSize` are skipped).
 
-## Tests
+### Reproducible install (optional)
+
+`pyproject.toml` uses bounded ranges (e.g. `pandas>=2.0,<4`), which is
+usually enough. For byte-identical reproducibility, install from the
+committed lockfile instead:
 
 ```bash
-pytest
+python3.12 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.lock
+pip install -e . --no-deps
+```
+
+### Tests
+
+```bash
+python -m pytest
 ```
 
 ## Directory layout
