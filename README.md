@@ -114,7 +114,7 @@ disagrees with one of these would reasonably arrive at different
 pipeline outputs, so they are surfaced here rather than buried in a
 single stage's section.
 
-1. **"Avoid hardcoding" taken literally.** The brief asks us to avoid
+1. **"Avoid hardcoding".** The brief asks us to avoid
    manual interactions and hardcoding where possible. We therefore:
    discover dataset IDs at runtime from the collection metadata endpoint
    (Stage 1); take the schema union with `pd.concat(sort=False)` rather
