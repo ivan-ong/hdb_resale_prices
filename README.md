@@ -306,18 +306,19 @@ Three transforms over the validation-passing rows:
 3. **Flag anomalous resale prices** (see heuristic below). Flags, never
    drops.
 
-#### Stage 5a — Lease recomputation assumptions
+**Lease recomputation assumptions.**
 
 - **`lease_commence_date` is treated as January 1 of the stored year.**
   The source column is a year (integer), not a calendar date. The
   "round down to years and months" requirement from the brief is then
   a straightforward integer-month subtraction with a single day-of-month
   adjustment when `as_of` is past the 1st.
-- **`config.AS_OF_DATE` defaults to today.** Pinning it is useful for
-  reproducibility tests but intentionally not the default — the brief
-  says "as of today".
+- **`config.AS_OF_DATE` is frozen** (currently `2026-04-09`) rather than
+  using `date.today()`, so re-running the pipeline against the same raw
+  CSVs produces byte-identical cleaned outputs. Bump the constant (and
+  re-run the notebook) to refresh the as-of date for submission.
 
-#### Stage 5b — Composite-key dedupe assumptions
+**Composite-key dedupe assumptions.**
 
 - **`remaining_lease*` is excluded from the key.** Including it would
   prevent the same logical transaction across vintages from collapsing,
@@ -330,7 +331,7 @@ Three transforms over the validation-passing rows:
   row order wins. Documented here so a reviewer isn't surprised by a
   specific pick.
 
-#### Stage 5c — Price anomaly heuristic
+**Price anomaly heuristic.**
 
 Resale-price anomalies are flagged (not dropped) by an **asymmetric IQR
 rule on price-per-sqm**, grouped by `(town, flat_type, year)`:
@@ -364,7 +365,7 @@ anomalies are flagged-not-removed and so live under `reports/`.
   anomalous resale price". "Identify" plus "heuristics" is hedge
   language — a false positive would silently destroy a real
   transaction. We therefore flag, write a review file, and let the
-  consumer decide. See the §5c paragraph above for the full rationale.
+  consumer decide. See the price-anomaly paragraph above for the full rationale.
 - **Grouping on (town, flat_type, year)** is the finest partition the
   data supports without most groups collapsing to singletons. A
   per-month partition would leave too many groups with IQR = 0.
@@ -374,10 +375,10 @@ anomalies are flagged-not-removed and so live under `reports/`.
 ### Stage 6 — Transform
 
 Stage 6 implements the brief's *Data Transformation Requirements*. It
-has three logically distinct sub-stages; each is covered in its own
-section below because the assumptions differ.
+has three logically distinct steps — identifier construction, collision
+dedupe, and hashing — each described below.
 
-#### Stage 6a — Resale Identifier construction
+**Resale Identifier construction.**
 
 The Resale Identifier is a 9-character string derived entirely from
 already-present columns. The construction follows brief *Transformation §1*
@@ -415,7 +416,7 @@ length.
   upper-cased town name. Whitespace drift in the source data is already
   normalized by Stage 2, but stripping here is defensive.
 
-#### Stage 6b — Identifier-collision dedupe
+**Identifier-collision dedupe.**
 
 The identifier is intentionally lossy: `block` compresses to 3 digits
 (several blocks share a prefix) and the price component is a 2-digit
@@ -437,7 +438,7 @@ produces **77,246 distinct identifiers from 90,938 cleaned rows**, so
   `data/failed/identifier_collision_duplicates.csv` with a
   `failure_reason` column consistent with the other `failed/` files.
 
-#### Stage 6c — Hashing algorithm (SHA-256)
+**Hashing algorithm (SHA-256).**
 
 The identifier is hashed with **SHA-256** via `hashlib.sha256`, wrapped
 by `transform.hash_identifier` as the single named entry point.
