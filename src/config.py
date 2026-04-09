@@ -17,6 +17,8 @@ PROJECT_ROOT: Path = Path(__file__).resolve().parent.parent
 DATA_DIR: Path = PROJECT_ROOT / "data"
 RAW_DIR: Path = DATA_DIR / "raw"
 CLEANED_DIR: Path = DATA_DIR / "cleaned"
+TRANSFORMED_DIR: Path = DATA_DIR / "transformed"
+HASHED_DIR: Path = DATA_DIR / "hashed"
 FAILED_DIR: Path = DATA_DIR / "failed"
 REPORTS_DIR: Path = DATA_DIR / "reports"
 
@@ -114,6 +116,30 @@ VALIDATE_FLOOR_AREA_IQR_MULT: float = 3.0
 # How many failing rows to keep as illustrative samples per rule in the
 # validation report.
 VALIDATE_SAMPLE_FAILURES: int = 3
+
+# ---------------------------------------------------------------------------
+# Transformation
+# ---------------------------------------------------------------------------
+
+# Total length of the Resale Identifier (brief Transformation §1):
+#   "S" + 3 block digits + 2 price digits + 2 month digits + 1 town initial = 9
+IDENTIFIER_LENGTH: int = 9
+
+# Number of leading digits taken from the block column, after stripping any
+# non-digit characters. Brief: "Next 3 digits is the first 3 digits of the
+# block column, after removing any characters."
+IDENTIFIER_BLOCK_DIGITS: int = 3
+
+# Number of leading digits taken from the integer part of the per-group
+# average resale price. Brief: "Taking the 1st and 2nd digit of the average
+# resale price, group by year-month, town and flat_type."
+IDENTIFIER_PRICE_DIGITS: int = 2
+
+# Irreversible hashing algorithm applied to the Resale Identifier
+# (brief Transformation §3). SHA-256 is FIPS-approved, 256-bit output,
+# collision probability is negligible at this dataset scale. See README
+# for the full rationale and the MD5 alternative considered.
+HASH_ALGORITHM: str = "sha256"
 
 # ---------------------------------------------------------------------------
 # Anomaly detection
