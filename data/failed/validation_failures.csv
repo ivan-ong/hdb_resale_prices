@@ -1,0 +1,7 @@
+month,town,flat_type,block,street_name,storey_range,floor_area_sqm,flat_model,lease_commence_date,resale_price,source_file,remaining_lease,remaining_lease_years_original,failure_reasons
+2015-03,KALLANG/WHAMPOA,3 ROOM,53,JLN MA'MOR,01 TO 03,280.0,Terrace,1972,1060000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,56.0,56,floor_area_within_iqr_bounds
+2015-06,KALLANG/WHAMPOA,3 ROOM,60,JLN BAHAGIA,01 TO 03,241.0,Terrace,1972,958000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,56.0,56,floor_area_within_iqr_bounds
+2016-12,KALLANG/WHAMPOA,3 ROOM,57,JLN MA'MOR,01 TO 03,259.0,Terrace,1972,1150000.0,ResaleFlatPricesBasedonRegistrationDateFromJan2015toDec2016.csv,54.0,54,floor_area_within_iqr_bounds
+2012-04,BISHAN,EXECUTIVE,446,BRIGHT HILL DR,06 TO 10,243.0,Maisonette,1990,869000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,floor_area_within_iqr_bounds
+2012-08,KALLANG/WHAMPOA,3 ROOM,65,JLN MA'MOR,01 TO 03,249.0,Terrace,1972,988888.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,floor_area_within_iqr_bounds
+2013-04,KALLANG/WHAMPOA,3 ROOM,65,JLN MA'MOR,01 TO 03,266.0,Terrace,1972,1020000.0,ResaleFlatPricesBasedonRegistrationDateFromMar2012toDec2014.csv,,,floor_area_within_iqr_bounds

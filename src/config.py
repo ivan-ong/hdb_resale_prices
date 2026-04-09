@@ -97,6 +97,25 @@ PROFILE_TOP_N_VALUES: int = 10
 PROFILE_SAMPLE_VALUES: int = 3
 
 # ---------------------------------------------------------------------------
+# Validation
+# ---------------------------------------------------------------------------
+
+# Earliest plausible HDB lease commencement year. The first HDB blocks were
+# completed in the early 1960s, so anything earlier is almost certainly bad
+# data rather than a real flat.
+LEASE_MIN_YEAR: int = 1960
+
+# Symmetric IQR multiplier for the floor_area_sqm range check. Wider than
+# the price-anomaly multipliers below because floor area is intrinsically
+# bounded (you can't have a 1000 sqm HDB flat) and we want to flag, not fail,
+# only the truly unbelievable values.
+VALIDATE_FLOOR_AREA_IQR_MULT: float = 3.0
+
+# How many failing rows to keep as illustrative samples per rule in the
+# validation report.
+VALIDATE_SAMPLE_FAILURES: int = 3
+
+# ---------------------------------------------------------------------------
 # Anomaly detection
 # ---------------------------------------------------------------------------
 
