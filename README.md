@@ -10,8 +10,9 @@ covers ingestion through to the Hashed output group, end to end. Part 2
 
 ## Quickstart
 
-Tested on **Python 3.12** (any 3.10–3.12 should work; 3.13 is not yet
-supported by the pinned dependency set). From the repo root:
+Developed and tested on **Python 3.12**. `pyproject.toml` declares
+`requires-python = ">=3.10,<3.13"` so 3.10 and 3.11 should also work, but
+only 3.12 is actively exercised. From the repo root:
 
 ```bash
 python3.12 -m venv .venv
@@ -438,8 +439,9 @@ produces **77,246 distinct identifiers from 90,938 cleaned rows**, so
 
 #### Stage 6c — Hashing algorithm (SHA-256)
 
-The identifier is hashed with **SHA-256** (`hashlib.sha256`), configured
-via `config.HASH_ALGORITHM`. Properties, and why each matters here:
+The identifier is hashed with **SHA-256** via `hashlib.sha256`, wrapped
+by `transform.hash_identifier` as the single named entry point.
+Properties, and why each matters here:
 
 - **Cryptographically irreversible.** One-way function — given only the
   hash, recovering the plaintext identifier is computationally infeasible.

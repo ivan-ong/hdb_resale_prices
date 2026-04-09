@@ -72,17 +72,22 @@ DOWNLOAD_TIMEOUT: int = 120
 # ---------------------------------------------------------------------------
 
 LEASE_TERM_YEARS: int = 99
-AS_OF_DATE: date = date.today()
+
+# Reference date for the "remaining lease" recomputation (brief DQ §4).
+# Frozen rather than `date.today()` so that re-runs of the pipeline against
+# the same raw CSVs produce byte-identical cleaned outputs, which is a hard
+# requirement for reproducible review. Bump this constant (and the committed
+# cleaned/transformed/hashed CSVs) whenever the notebook is re-executed for
+# submission. The notebook also prints the effective AS_OF_DATE so reviewers
+# can spot the value without digging into config.
+AS_OF_DATE: date = date(2026, 4, 9)
 
 # ---------------------------------------------------------------------------
 # Dedupe
 # ---------------------------------------------------------------------------
 
-# Composite key for dedupe = all raw master columns EXCEPT resale_price and
-# pipeline-added metadata columns. Populated by combine.py once the raw master
-# schema is known, OR overridden here after the master schema is locked.
-COMPOSITE_KEY_COLUMNS: list[str] = []
-
+# Lineage columns that are never part of the composite dedupe key. Consumed
+# by `validate._composite_key_columns` and `clean.composite_key_columns`.
 PIPELINE_METADATA_COLUMNS: list[str] = ["source_file"]
 
 # ---------------------------------------------------------------------------
@@ -134,12 +139,6 @@ IDENTIFIER_BLOCK_DIGITS: int = 3
 # average resale price. Brief: "Taking the 1st and 2nd digit of the average
 # resale price, group by year-month, town and flat_type."
 IDENTIFIER_PRICE_DIGITS: int = 2
-
-# Irreversible hashing algorithm applied to the Resale Identifier
-# (brief Transformation §3). SHA-256 is FIPS-approved, 256-bit output,
-# collision probability is negligible at this dataset scale. See README
-# for the full rationale and the MD5 alternative considered.
-HASH_ALGORITHM: str = "sha256"
 
 # ---------------------------------------------------------------------------
 # Anomaly detection
